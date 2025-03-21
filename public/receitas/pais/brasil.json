@@ -1,0 +1,110 @@
+[
+    {
+      "estado": "Acre",
+      "json": "/receitas/acre.json"
+    },
+    {
+      "estado": "Alagoas",
+      "json": "/receitas/alagoas.json"
+    },
+    {
+      "estado": "Amapá",
+      "json": "/receitas/amapa.json"
+    },
+    {
+      "estado": "Amazonas",
+      "json": "/receitas/amazonas.json"
+    },
+    {
+      "estado": "Bahia",
+      "json": "/receitas/bahia.json"
+    },
+    {
+      "estado": "Ceará",
+      "json": "/receitas/ceara.json"
+    },
+    {
+      "estado": "Distrito Federal",
+      "json": "/receitas/distrito-federal.json"
+    },
+    {
+      "estado": "Espírito Santo",
+      "json": "/receitas/espirito-santo.json"
+    },
+    {
+      "estado": "Goiás",
+      "json": "/receitas/goias.json"
+    },
+    {
+      "estado": "Maranhão",
+      "json": "/receitas/maranhao.json"
+    },
+    {
+      "estado": "Mato Grosso",
+      "json": "/receitas/mato-grosso.json"
+    },
+    {
+      "estado": "Mato Grosso do Sul",
+      "json": "/receitas/mato-grosso-do-sul.json"
+    },
+    {
+      "estado": "Minas Gerais",
+      "json": "/receitas/minas-gerais.json"
+    },
+    {
+      "estado": "Pará",
+      "json": "/receitas/para.json"
+    },
+    {
+      "estado": "Paraíba",
+      "json": "/receitas/paraiba.json"
+    },
+    {
+      "estado": "Paraná",
+      "json": "/receitas/parana.json"
+    },
+    {
+      "estado": "Pernambuco",
+      "json": "/receitas/pernambuco.json"
+    },
+    {
+      "estado": "Piauí",
+      "json": "/receitas/piaui.json"
+    },
+    {
+      "estado": "Rio de Janeiro",
+      "json": "/receitas/rio-de-janeiro.json"
+    },
+    {
+      "estado": "Rio Grande do Norte",
+      "json": "/receitas/rio-grande-do-norte.json"
+    },
+    {
+      "estado": "Rio Grande do Sul",
+      "json": "/receitas/rio-grande-do-sul.json"
+    },
+    {
+      "estado": "Rondônia",
+      "json": "/receitas/rondonia.json"
+    },
+    {
+      "estado": "Roraima",
+      "json": "/receitas/roraima.json"
+    },
+    {
+      "estado": "Santa Catarina",
+      "json": "/receitas/santa-catarina.json"
+    },
+    {
+      "estado": "São Paulo",
+      "json": "/receitas/sao-paulo.json"
+    },
+    {
+      "estado": "Sergipe",
+      "json": "/receitas/sergipe.json"
+    },
+    {
+      "estado": "Tocantins",
+      "json": "/receitas/tocantins.json"
+    }
+  ]

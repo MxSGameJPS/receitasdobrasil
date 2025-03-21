@@ -1,0 +1,119 @@
+{
+    "nome": "Amapá",
+    "sigla": "AP",
+    "historia": "A culinária do Amapá é um retrato vibrante da Amazônia, marcada pela influência das comunidades indígenas e ribeirinhas que vivem às margens dos rios. Peixes como o tucunaré e a gurijuba, frutas regionais como o açaí e o cupuaçu, e o uso de temperos naturais compõem pratos simples, mas cheios de sabor. A proximidade com o Pará também traz elementos como o tucupi e o jambu, enquanto a pesca abundante destaca receitas como o camarão ao bafo, valorizando os ingredientes frescos da região.",
+    "receitas": [
+      {
+        "nome": "Pescada Gurijuba ao Molho",
+        "tipo": "salgado",
+        "descricao": "Prato tradicional com um peixe típico da região, servido com molho rico em temperos amazônicos.",
+        "ingredientes": [
+          "1kg de pescada gurijuba limpa",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 colheres de sopa de azeite de dendê",
+          "200ml de leite de coco",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere a pescada com sal e pimenta e deixe descansar por 20 minutos.",
+          "Em uma panela, aqueça o azeite de dendê e refogue a cebola, o tomate e o pimentão até amolecerem.",
+          "Adicione o leite de coco e misture bem, deixando ferver por 5 minutos.",
+          "Coloque os filés de pescada na panela, cubra e cozinhe em fogo baixo por 15 minutos, ou até o peixe estar macio.",
+          "Finalize com cheiro-verde e sirva com arroz branco ou pirão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Amapa/gurijuba.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Tucunaré na Brasa",
+        "tipo": "salgado",
+        "descricao": "Peixe amazônico grelhado na brasa, um clássico das comunidades ribeirinhas.",
+        "ingredientes": [
+          "1 tucunaré inteiro (cerca de 1,5kg), limpo",
+          "Suco de 2 limões",
+          "3 dentes de alho amassados",
+          "Sal grosso a gosto",
+          "Pimenta-do-reino a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o tucunaré com o suco de limão, alho, sal grosso e pimenta, esfregando bem por dentro e por fora. Deixe marinar por 30 minutos.",
+          "Acenda a churrasqueira e espere formar brasas.",
+          "Coloque o peixe em uma grelha dupla e asse por cerca de 20 minutos de cada lado, ou até a carne estar cozida e a pele crocante.",
+          "Sirva com farofa e vinagrete."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Amapa/10119628.avif",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Suco de Açaí Natural",
+        "tipo": "bebida",
+        "descricao": "Bebida energética e tradicional, feita com a polpa do açaí colhido na Amazônia.",
+        "ingredientes": [
+          "500g de polpa de açaí congelada",
+          "200ml de água gelada",
+          "2 colheres de sopa de açúcar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Quebre a polpa de açaí em pedaços menores e coloque no liquidificador.",
+          "Adicione a água gelada e o açúcar, se desejar.",
+          "Bata até ficar homogêneo, por cerca de 1 minuto.",
+          "Sirva imediatamente em um copo ou tigela, acompanhado de tapioca ou farinha d’água, se preferir."
+        ],
+        "rendimento": "2 copos, serve 2 pessoas",
+        "tempo_de_preparo": "10 minutos",
+        "imagem": "/imagem/Amapa/acai.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Camarão ao Bafo",
+        "tipo": "salgado",
+        "descricao": "Camarões cozidos no vapor com temperos simples, valorizando o sabor natural do ingrediente.",
+        "ingredientes": [
+          "1kg de camarão fresco com casca",
+          "Suco de 1 limão",
+          "3 dentes de alho picados",
+          "Sal a gosto",
+          "1 folha de louro"
+        ],
+        "modo_de_preparo": [
+          "Lave os camarões e tempere com o suco de limão, alho e sal. Deixe descansar por 15 minutos.",
+          "Em uma panela com cestinha de vapor, coloque água até a metade, adicione a folha de louro e leve ao fogo.",
+          "Quando a água ferver, coloque os camarões na cestinha e tampe a panela.",
+          "Cozinhe no vapor por 10 minutos, ou até os camarões ficarem rosados.",
+          "Sirva quente, acompanhado de molho de pimenta ou limão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Amapa/Camarao.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Doce de Cupuaçu",
+        "tipo": "doce",
+        "descricao": "Sobremesa cremosa feita com a polpa do cupuaçu, fruta típica da região amazônica.",
+        "ingredientes": [
+          "500g de polpa de cupuaçu",
+          "1 lata de leite condensado (395g)",
+          "200ml de creme de leite",
+          "2 colheres de sopa de açúcar"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, misture a polpa de cupuaçu, o leite condensado e o açúcar.",
+          "Leve ao fogo médio, mexendo sempre, até engrossar e começar a desgrudar do fundo (cerca de 15 minutos).",
+          "Desligue o fogo e adicione o creme de leite, misturando bem até ficar homogêneo.",
+          "Despeje em um refratário ou potinhos individuais e deixe esfriar. Leve à geladeira por 2 horas antes de servir."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "30 minutos + 2 horas de geladeira",
+        "imagem": "/imagem/Amapa/cupuacu.jpg",
+        "dificuldade": "Médio"
+      }
+    ]
+  }

@@ -1,0 +1,118 @@
+{
+  "nome": "Acre",
+  "sigla": "AC",
+  "historia": "A culinária acreana é um reflexo da Amazônia, com forte influência indígena e dos seringueiros que desbravaram a região. Pratos como o tacacá, com tucupi e jambu, e o uso de ingredientes locais, como o buriti e a macaxeira, mostram a conexão com a floresta. A presença de imigrantes árabes também trouxe variações únicas, como o quibe de arroz.",
+  "receitas": [
+    {
+      "nome": "Doce de Buriti",
+      "tipo": "doce",
+      "descricao": "Sobremesa tradicional feita com a polpa do fruto do buriti, típica da Amazônia.",
+      "ingredientes": [
+        "500g de polpa de buriti",
+        "300g de açúcar",
+        "200ml de água"
+      ],
+      "modo_de_preparo": [
+        "Em uma panela, misture a polpa de buriti, o açúcar e a água.",
+        "Leve ao fogo médio, mexendo sempre até começar a engrossar (cerca de 20 minutos).",
+        "Continue mexendo até atingir o ponto de doce pastoso, quando desgruda do fundo da panela.",
+        "Despeje em um prato untado com manteiga e deixe esfriar antes de cortar em pedaços."
+      ],
+      "rendimento": "Aproximadamente 20 pedaços, serve 6-8 pessoas",
+      "tempo_de_preparo": "40 minutos",
+      "imagem": "/imagem/Acre/buriti.jpg",
+      "dificuldade": "Médio"
+    },
+    {
+      "nome": "Quibe de Arroz",
+      "tipo": "salgado",
+      "descricao": "Variação acreana do quibe, feita com arroz em vez de trigo, influência da culinária árabe local.",
+      "ingredientes": [
+        "2 xícaras de arroz cozido",
+        "500g de carne moída",
+        "1 cebola picada",
+        "2 colheres de sopa de hortelã picada",
+        "Sal e pimenta a gosto",
+        "Óleo para fritar"
+      ],
+      "modo_de_preparo": [
+        "Triture o arroz cozido no processador até formar uma massa homogênea.",
+        "Em uma tigela, misture o arroz triturado, a carne moída, a cebola, a hortelã, o sal e a pimenta.",
+        "Modele os quibes no formato tradicional (ovais) com as mãos.",
+        "Frite em óleo quente até dourar por fora, escorrendo em papel-toalha antes de servir."
+      ],
+      "rendimento": "Cerca de 15 quibes médios, serve 4-5 pessoas",
+      "tempo_de_preparo": "50 minutos",
+      "imagem": "/imagem/Acre/quibedearroz.webp",
+      "dificuldade": "Médio"
+    },
+    {
+      "nome": "Tacacá",
+      "tipo": "salgado",
+      "descricao": "Sopa quente com tucupi, jambu e camarão, um clássico da culinária amazônica.",
+      "ingredientes": [
+        "1 litro de tucupi",
+        "200g de jambu fresco",
+        "100g de camarão seco",
+        "1 xícara de goma de mandioca",
+        "2 pimentas de cheiro",
+        "Sal a gosto"
+      ],
+      "modo_de_preparo": [
+        "Ferva o tucupi em uma panela grande com as pimentas e sal por 15 minutos.",
+        "Adicione o camarão seco e cozinhe por mais 5 minutos.",
+        "Coloque o jambu e cozinhe até as folhas murcharem (cerca de 3 minutos).",
+        "Dissolva a goma em um pouco de água fria e adicione ao caldo, mexendo até engrossar ligeiramente.",
+        "Sirva quente em cuias, com pimenta extra se desejar."
+      ],
+      "rendimento": "4 porções, serve 4 pessoas",
+      "tempo_de_preparo": "30 minutos",
+      "imagem": "/imagem/Acre/tacaca.jpg",
+      "dificuldade": "Fácil"
+    },
+    {
+      "nome": "Bolo de Macaxeira",
+      "tipo": "doce",
+      "descricao": "Bolo simples e saboroso feito com mandioca, muito apreciado na região.",
+      "ingredientes": [
+        "1kg de macaxeira ralada",
+        "2 xícaras de açúcar",
+        "200ml de leite de coco",
+        "3 ovos",
+        "2 colheres de sopa de manteiga"
+      ],
+      "modo_de_preparo": [
+        "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+        "Em uma tigela, misture a macaxeira ralada, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+        "Despeje a massa na forma e asse por cerca de 50 minutos, ou até dourar por cima.",
+        "Deixe esfriar antes de cortar e servir."
+      ],
+      "rendimento": "10 fatias, serve 8-10 pessoas",
+      "tempo_de_preparo": "1 hora",
+      "imagem": "/imagem/Acre/bolomaca.jpg",
+      "dificuldade": "Fácil"
+    },
+    {
+      "nome": "Charuto de Pato",
+      "tipo": "salgado",
+      "descricao": "Pato desfiado enrolado em massa de mandioca, um prato típico do interior.",
+      "ingredientes": [
+        "1kg de pato cozido e desfiado",
+        "2 xícaras de farinha de mandioca",
+        "1 cebola picada",
+        "Temperos a gosto (sal, pimenta, cheiro-verde)",
+        "Água o quanto baste"
+      ],
+      "modo_de_preparo": [
+        "Refogue o pato desfiado com a cebola e os temperos até ficar bem saboroso, reserve.",
+        "Misture a farinha de mandioca com água até formar uma massa maleável.",
+        "Abra pequenas porções da massa em formato retangular, recheie com o pato e enrole como charutos.",
+        "Cozinhe os charutos no vapor por 20 minutos ou frite em óleo quente até dourar."
+      ],
+      "rendimento": "8 charutos, serve 4 pessoas",
+      "tempo_de_preparo": "1 hora e 10 minutos",
+      "imagem": "/imagem/Acre/pato.avif",
+      "dificuldade": "Difícil"
+    }
+  ]
+}

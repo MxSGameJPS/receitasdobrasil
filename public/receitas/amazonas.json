@@ -1,0 +1,120 @@
+{
+    "nome": "Amazonas",
+    "sigla": "AM",
+    "historia": "A culinária do Amazonas é um mergulho na Amazônia profunda, onde a floresta e os rios ditam o cardápio. Influenciada fortemente pelas tradições indígenas, ela destaca peixes como o tambaqui e o pirarucu, preparados de formas simples ou elaboradas, como na brasa ou em caldeiradas. Frutas como o tucumã e o guaraná, além de ingredientes como o tucupi e o jambu, trazem sabores únicos que refletem a biodiversidade da região. É uma cozinha que celebra a abundância natural e a simplicidade das comunidades ribeirinhas.",
+    "receitas": [
+      {
+        "nome": "Tambaqui Assado na Brasa",
+        "tipo": "salgado",
+        "descricao": "Peixe típico do Amazonas, assado na brasa com temperos simples que realçam seu sabor.",
+        "ingredientes": [
+          "1 tambaqui inteiro (cerca de 2kg), limpo",
+          "Suco de 3 limões",
+          "4 dentes de alho amassados",
+          "Sal grosso a gosto",
+          "Pimenta-do-reino a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o tambaqui com o suco de limão, alho, sal grosso e pimenta, esfregando bem por dentro e por fora. Deixe marinar por 30 minutos.",
+          "Acenda a churrasqueira e espere formar brasas.",
+          "Coloque o peixe em uma grelha dupla e asse por cerca de 25 minutos de cada lado, ou até a carne estar cozida e a pele crocante.",
+          "Sirva com farofa de mandioca e molho de pimenta."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Amazonas/tambaqui-assado.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Caldeirada de Pirarucu",
+        "tipo": "salgado",
+        "descricao": "Prato robusto com o 'bacalhau da Amazônia', cozido com legumes e temperos regionais.",
+        "ingredientes": [
+          "1kg de pirarucu fresco em postas",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em rodelas",
+          "200ml de leite de coco",
+          "1 litro de água",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o pirarucu com sal e pimenta e reserve por 20 minutos.",
+          "Em uma panela grande, coloque a água, os tomates, a cebola, o pimentão e as batatas. Leve ao fogo médio.",
+          "Quando os legumes começarem a amolecer (cerca de 10 minutos), adicione o pirarucu e o leite de coco.",
+          "Cozinhe por mais 20 minutos, ou até o peixe estar macio. Ajuste o sal e finalize com cheiro-verde.",
+          "Sirva quente com arroz branco."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Amazonas/caldeirada-pirarucu.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Suco de Guaraná Natural",
+        "tipo": "bebida",
+        "descricao": "Bebida refrescante feita com o fruto do guaraná, famoso por suas propriedades energéticas.",
+        "ingredientes": [
+          "100g de sementes de guaraná raladas",
+          "500ml de água gelada",
+          "3 colheres de sopa de açúcar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Rale as sementes de guaraná com um ralador fino até obter um pó.",
+          "Coloque o pó de guaraná, a água e o açúcar no liquidificador.",
+          "Bata por 1 minuto, coe com um pano fino ou coador e sirva gelado."
+        ],
+        "rendimento": "2 copos, serve 2 pessoas",
+        "tempo_de_preparo": "15 minutos",
+        "imagem": "/imagem/Amazonas/suco-guarana.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Mungunzá de Milho com Tucumã",
+        "tipo": "doce",
+        "descricao": "Doce tradicional com milho e um toque especial do tucumã, fruta amazônica.",
+        "ingredientes": [
+          "2 xícaras de milho verde ralado",
+          "1 litro de leite",
+          "200g de polpa de tucumã",
+          "1 xícara de açúcar",
+          "1 pitada de sal",
+          "Canela em pó a gosto"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, cozinhe o milho ralado com o leite em fogo médio, mexendo sempre, por 20 minutos.",
+          "Adicione o açúcar, o sal e a polpa de tucumã, misturando bem até engrossar (cerca de 15 minutos).",
+          "Despeje em uma travessa, polvilhe canela e deixe esfriar antes de servir."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Amazonas/mungunza-tucuma.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolinho de Tambaqui com Mandioca",
+        "tipo": "salgado",
+        "descricao": "Bolinhos fritos feitos com tambaqui desfiado e mandioca, perfeitos como petisco.",
+        "ingredientes": [
+          "500g de tambaqui cozido e desfiado",
+          "300g de mandioca cozida e amassada",
+          "1 cebola picada",
+          "2 colheres de sopa de cheiro-verde picado",
+          "Sal e pimenta a gosto",
+          "Óleo para fritar"
+        ],
+        "modo_de_preparo": [
+          "Em uma tigela, misture o tambaqui desfiado, a mandioca amassada, a cebola, o cheiro-verde, o sal e a pimenta até formar uma massa homogênea.",
+          "Modele bolinhos com as mãos ou com ajuda de duas colheres.",
+          "Aqueça o óleo em uma frigideira e frite os bolinhos até dourarem por fora (cerca de 3 minutos de cada lado).",
+          "Escorra em papel-toalha e sirva quente com molho de pimenta."
+        ],
+        "rendimento": "15 bolinhos, serve 4-5 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/Amazonas/bolinho-tambaqui.jpg",
+        "dificuldade": "Médio"
+      }
+    ]
+  }

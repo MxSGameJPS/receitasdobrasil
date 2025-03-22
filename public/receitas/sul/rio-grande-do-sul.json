@@ -1,0 +1,129 @@
+{
+    "nome": "Rio Grande do Sul",
+    "sigla": "RS",
+    "historia": "A culinária do Rio Grande do Sul é um grito dos pampas, moldada pela vida campeira e pela força dos imigrantes italianos, alemães e açorianos. O churrasco, elevado a arte, é o coração da mesa gaúcha, com carnes assadas na brasa e acompanhamentos simples como o arroz carreteiro. O charque e o feijão mexido contam histórias dos tropeiros, enquanto doces como a ambrosia e o sagu mostram a doçura herdada dos colonos. É uma cozinha farta e sincera, que celebra a tradição e a terra do Sul.",
+    "receitas": [
+      {
+        "nome": "Churrasco Gaúcho",
+        "tipo": "salgado",
+        "descricao": "Churrasco tradicional dos pampas, com carne assada na brasa e sal grosso.",
+        "ingredientes": [
+          "1kg de picanha ou costela bovina",
+          "Sal grosso a gosto",
+          "2 colheres de sopa de azeite (opcional)",
+          "Pimenta-do-reino a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere a carne com sal grosso (e pimenta, se quiser) e deixe descansar por 30 minutos.",
+          "Prepare a churrasqueira com brasa média-alta.",
+          "Coloque a carne no espeto ou grelha e asse por 20-30 minutos, virando para dourar todos os lados, até o ponto desejado.",
+          "Corte em fatias e sirva com farofa, vinagrete e pão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/RioGrandeDoSul/churrasco-gaucho.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Arroz Carreteiro",
+        "tipo": "salgado",
+        "descricao": "Prato campeiro com arroz e charque, herança dos tropeiros gaúchos.",
+        "ingredientes": [
+          "2 xícaras de arroz",
+          "300g de charque dessalgado",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "1 tomate picado",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue o charque em água por 12 horas, trocando a água, depois cozinhe por 20 minutos e corte em cubos.",
+          "Em uma panela, aqueça o óleo e refogue o alho, a cebola e o tomate até amolecerem.",
+          "Adicione o charque e frite por 5 minutos.",
+          "Junte o arroz, misture bem, adicione 4 xícaras de água fervente e tempere com sal e pimenta.",
+          "Cozinhe em fogo baixo por 20 minutos, até secar, e finalize com cheiro-verde."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "50 minutos (após dessalgar)",
+        "imagem": "/imagem/RioGrandeDoSul/arroz-carreteiro.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Feijão Mexido",
+        "tipo": "salgado",
+        "descricao": "Feijão refogado com farinha, acompanhamento típico do Rio Grande do Sul.",
+        "ingredientes": [
+          "500g de feijão preto cozido",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "1 xícara de farinha de mandioca",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira, aqueça o óleo e refogue o alho e a cebola até dourarem.",
+          "Adicione o feijão cozido com um pouco do caldo e amasse levemente com uma colher.",
+          "Junte a farinha de mandioca aos poucos, mexendo até engrossar e ficar homogêneo.",
+          "Tempere com sal e pimenta, finalize com cheiro-verde e sirva com arroz e carne."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/RioGrandeDoSul/feijao-mexido.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Sagu com Vinho",
+        "tipo": "doce",
+        "descricao": "Sobremesa gaúcha com bolinhas de tapioca cozidas em vinho tinto.",
+        "ingredientes": [
+          "1 xícara de sagu (bolinhas de tapioca)",
+          "2 xícaras de vinho tinto seco",
+          "1 xícara de açúcar",
+          "1 canela em pau",
+          "2 cravos-da-índia",
+          "Água para cozinhar o sagu"
+        ],
+        "modo_de_preparo": [
+          "Deixe o sagu de molho em água por 1 hora, depois cozinhe em água fervente por 15 minutos, até ficar transparente; escorra e reserve.",
+          "Em uma panela, aqueça o vinho com o açúcar, a canela e os cravos até dissolver o açúcar.",
+          "Adicione o sagu cozido e cozinhe por 10 minutos em fogo baixo, mexendo às vezes.",
+          "Retire a canela e os cravos, deixe esfriar e sirva gelado, com creme de leite se quiser."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/RioGrandeDoSul/sagu-com-vinho.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Cuca de Uva",
+        "tipo": "doce",
+        "descricao": "Bolo com farofa e uvas, influência alemã tradicional no Rio Grande do Sul.",
+        "ingredientes": [
+          "2 xícaras de farinha de trigo",
+          "1 xícara de açúcar",
+          "2 ovos",
+          "1/2 xícara de leite",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó",
+          "2 xícaras de uvas pretas (ou verdes)",
+          "1/2 xícara de farinha para a farofa",
+          "1/4 xícara de açúcar para a farofa",
+          "2 colheres de sopa de manteiga para a farofa"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma.",
+          "Para a massa, bata os ovos, o açúcar e a manteiga, adicione o leite e a farinha com o fermento, misturando bem.",
+          "Despeje a massa na forma e distribua as uvas por cima.",
+          "Para a farofa, misture a farinha, o açúcar e a manteiga com as mãos até formar uma textura granulada; espalhe sobre as uvas.",
+          "Asse por 40 minutos, até dourar, e sirva quente ou frio."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/RioGrandeDoSul/cuca-de-uva.webp",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

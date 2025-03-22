@@ -81,7 +81,7 @@
     },
     {
       "estado": "Rio Grande do Sul",
-      "json": "/receitas/rio-grande-do-sul.json"
+      "json": "/receitas/sul/rio-grande-do-sul.json"
     },
     {
       "estado": "Rondônia",
@@ -93,7 +93,7 @@
     },
     {
       "estado": "Santa Catarina",
-      "json": "/receitas/santa-catarina.json"
+      "json": "/receitas/sul/santa-catarina.json"
     },
     {
       "estado": "São Paulo",

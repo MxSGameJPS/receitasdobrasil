@@ -1,0 +1,137 @@
+{
+    "nome": "Santa Catarina",
+    "sigla": "SC",
+    "historia": "A culinária de Santa Catarina é um mosaico cultural, tecido pelas mãos de imigrantes alemães, italianos e açorianos, com o sabor do mar e do interior. No litoral, ostras, camarões e peixes reinam em pratos frescos e simples, como a sequência de camarão. No interior, a herança europeia traz cucas, pães e carnes defumadas, enquanto o pinhão, típico da serra, marca a identidade local. É uma cozinha que une a fartura das colônias à leveza da costa, celebrando a diversidade e a tradição do estado.",
+    "receitas": [
+      {
+        "nome": "Sequência de Camarão",
+        "tipo": "salgado",
+        "descricao": "Prato típico do litoral catarinense, com camarões servidos em várias preparações.",
+        "ingredientes": [
+          "1kg de camarão limpo",
+          "Suco de 2 limões",
+          "2 dentes de alho amassados",
+          "1 cebola picada",
+          "2 tomates picados",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Farinha de trigo e óleo para empanar",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere metade dos camarões com limão, sal, pimenta e alho; deixe marinar por 30 minutos.",
+          "Para o camarão refogado: aqueça o azeite, refogue a cebola, o alho e os tomates, adicione os camarões marinados e cozinhe por 5 minutos; finalize com cheiro-verde.",
+          "Para o camarão frito: passe a outra metade dos camarões na farinha de trigo e frite em óleo quente por 3 minutos, até dourar; escorra em papel-toalha.",
+          "Sirva os dois tipos com arroz, pirão e batata frita."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/SantaCatarina/sequencia-de-camarao.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Cuca de Maçã",
+        "tipo": "doce",
+        "descricao": "Bolo com farofa e maçã, influência alemã tradicional em Santa Catarina.",
+        "ingredientes": [
+          "2 xícaras de farinha de trigo",
+          "1 xícara de açúcar",
+          "2 ovos",
+          "1/2 xícara de leite",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó",
+          "2 maçãs descascadas e fatiadas",
+          "1/2 xícara de farinha para a farofa",
+          "1/4 xícara de açúcar para a farofa",
+          "2 colheres de sopa de manteiga para a farofa"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma.",
+          "Para a massa, bata os ovos, o açúcar e a manteiga, adicione o leite e a farinha com o fermento, misturando bem.",
+          "Despeje a massa na forma e distribua as maçãs fatiadas por cima.",
+          "Para a farofa, misture a farinha, o açúcar e a manteiga com as mãos até formar uma textura granulada; espalhe sobre as maçãs.",
+          "Asse por 40 minutos, até dourar, e sirva quente ou frio."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/SantaCatarina/cuca-de-maca.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Ostras Gratinadas",
+        "tipo": "salgado",
+        "descricao": "Ostras frescas com queijo, especialidade do litoral de Santa Catarina.",
+        "ingredientes": [
+          "12 ostras frescas com casca",
+          "100g de queijo parmesão ralado",
+          "2 colheres de sopa de manteiga",
+          "1 dente de alho amassado",
+          "Suco de 1/2 limão",
+          "Sal e pimenta a gosto",
+          "Farinha de rosca a gosto"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 200°C.",
+          "Abra as ostras com cuidado, mantendo-as na concha, e tempere com limão, sal e pimenta.",
+          "Em uma tigela, misture a manteiga, o alho, o queijo e um pouco de farinha de rosca até formar uma pasta.",
+          "Coloque uma porção da mistura sobre cada ostra.",
+          "Arrume as ostras em uma assadeira e asse por 10 minutos, até gratinar.",
+          "Sirva quente, com limão à parte."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/SantaCatarina/ostras-gratinadas.png",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Entrevero de Pinhão",
+        "tipo": "salgado",
+        "descricao": "Mistura de carnes com pinhão, prato rústico da serra catarinense.",
+        "ingredientes": [
+          "500g de pinhão cozido e descascado",
+          "300g de carne bovina em cubos",
+          "200g de linguiça calabresa em rodelas",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Cozinhe o pinhão em água com sal por 40 minutos na pressão, escorra, descasque e reserve.",
+          "Em uma frigideira grande, aqueça o óleo e frite a carne e a linguiça até dourarem (cerca de 10 minutos).",
+          "Adicione o alho e a cebola, refogando até ficarem transparentes.",
+          "Junte o pinhão, tempere com sal e pimenta e cozinhe por mais 5 minutos, mexendo bem.",
+          "Finalize com cheiro-verde e sirva com arroz ou pão."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/SantaCatarina/entrevero-de-pinhao.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Milho Verde",
+        "tipo": "doce",
+        "descricao": "Bolo cremoso de milho, tradicional no interior de Santa Catarina.",
+        "ingredientes": [
+          "4 espigas de milho verde (ou 2 xícaras de milho debulhado)",
+          "1 xícara de açúcar",
+          "200ml de leite de coco",
+          "2 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "No liquidificador, bata o milho, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente com uma colher.",
+          "Despeje a massa na forma e asse por 40 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/SantaCatarina/bolo-de-milho-verde.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

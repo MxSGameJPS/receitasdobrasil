@@ -33,13 +33,18 @@ export default function PaginaEstado() {
     carregarDados();
   }, [estado]);
 
+  const formBaseUrl = "https://forms.gle/WZ57fVjbAfZWAWD48"; // Exemplo, troque pelo seu link
+  const sugestaoUrl = `${formBaseUrl}?usp=pp_url&entry.123456789=${encodeURIComponent(
+    estado
+  )}`;
+
   if (!dadosEstado) return <p>Carregando...</p>;
 
   return (
     <Container>
       <h1>Bem-vindo ao {dadosEstado.nome}</h1>
-      <Historia>       
-          <p>{dadosEstado.historia}</p>       
+      <Historia>
+        <p>{dadosEstado.historia}</p>
       </Historia>
       <ThumbnailList>
         {dadosEstado.receitas.map((receita, index) => (
@@ -52,6 +57,9 @@ export default function PaginaEstado() {
           </ThumbnailCard>
         ))}
       </ThumbnailList>
+      <BotaoSugerir href={sugestaoUrl} target="_blank">
+        Sugerir uma Receita
+      </BotaoSugerir>
     </Container>
   );
 }
@@ -76,7 +84,7 @@ const Container = styled.div`
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
-  } 
+  }
 `;
 
 const Historia = styled.div`
@@ -112,5 +120,24 @@ const ThumbnailCard = styled(Link)`
 
   &:hover {
     opacity: 0.9;
+  }
+`;
+
+const BotaoSugerir = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  margin: 30px auto 0;
+  padding: 10px 20px;
+  background-color: #ff9c00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 16px;
+  &:hover {
+    background-color: #ac6803;
   }
 `;

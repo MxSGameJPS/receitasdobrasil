@@ -77,57 +77,229 @@ export default function Home() {
 
 const ContainerHome = styled.div`
   max-width: 800px;
-  margin: 150px auto;
-  padding: 35px 90px;
+  margin: 50px auto; /* Reduzido de 150px */
+  padding: 15px 20px; /* Reduzido de 35px 90px */
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 30px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px; /* Reduzido de 30px */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Sombra reduzida */
 
   h1 {
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 1rem;
+    font-size: 24px; /* Reduzido de 50px */
+    margin-bottom: 0.8rem; /* Reduzido de 1rem */
   }
 
   p {
-    font-size: 20px;
-    line-height: 1.6;
-    margin-bottom: 2rem;
+    font-size: 14px; /* Reduzido de 20px */
+    line-height: 1.4; /* Reduzido de 1.6 */
+    margin-bottom: 1rem; /* Reduzido de 2rem */
+  }
+
+  /* 280px (ex.: Galaxy Fold) */
+  @media (min-width: 280px) {
+    margin: 60px auto;
+    padding: 20px 25px;
+    border-radius: 22px;
+    h1 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+
+  /* 320px (ex.: iPhone SE) */
+  @media (min-width: 320px) {
+    margin: 80px auto;
+    padding: 25px 30px;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  /* 375px (ex.: iPhone 12) */
+  @media (min-width: 375px) {
+    padding: 30px 40px;
+    border-radius: 25px;
+    h1 {
+      font-size: 34px;
+    }
+    p {
+      font-size: 17px;
+      line-height: 1.5;
+    }
+  }
+
+  /* 468px (ex.: telas médias) */
+  @media (min-width: 468px) {
+    margin: 100px auto;
+    padding: 35px 60px;
+    border-radius: 28px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    h1 {
+      font-size: 40px;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  /* 768px (ex.: tablets pequenos) */
+  @media (min-width: 768px) {
+    padding: 35px 80px;
+    h1 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 19px;
+    }
+  }
+
+  /* 1024px (ex.: tablets grandes) */
+  @media (min-width: 1024px) {
+    margin: 150px auto;
+    padding: 35px 90px;
+    border-radius: 30px;
+    h1 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
   }
 `;
 
 const SearchContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px; /* Reduzido de 20px */
+
+  @media (min-width: 280px) {
+    margin-top: 12px;
+  }
+
+  @media (min-width: 320px) {
+    margin-top: 14px;
+  }
+
+  @media (min-width: 375px) {
+    margin-top: 16px;
+  }
+
+  @media (min-width: 468px) {
+    margin-top: 20px;
+  }
 `;
 
 const SearchForm = styled.form`
   display: flex;
-  width: 100%;
-  max-width: 500px;
-  gap: 10px;
+  width: 100%; /* Mantém fluido */
+  max-width: 300px; /* Reduzido de 500px pra telas pequenas */
+  gap: 6px; /* Reduzido de 10px */
+
+  @media (min-width: 280px) {
+    max-width: 320px;
+    gap: 7px;
+  }
+
+  @media (min-width: 320px) {
+    max-width: 350px;
+    gap: 8px;
+  }
+
+  @media (min-width: 375px) {
+    max-width: 400px;
+    gap: 9px;
+  }
+
+  @media (min-width: 468px) {
+    max-width: 450px;
+    gap: 10px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 500px;
+  }
 `;
 
 const SearchInput = styled.input`
   flex: 1;
-  padding: 12px 20px;
-  font-size: 16px;
+  padding: 8px 12px; /* Reduzido de 12px 20px */
+  font-size: 12px; /* Reduzido de 16px */
   border: none;
-  border-radius: 18px;
-  outline: none;  
+  border-radius: 12px; /* Reduzido de 18px */
+  outline: none;
+
+  @media (min-width: 280px) {
+    padding: 9px 14px;
+    font-size: 13px;
+  }
+
+  @media (min-width: 320px) {
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 14px;
+  }
+
+  @media (min-width: 375px) {
+    padding: 11px 18px;
+  }
+
+  @media (min-width: 468px) {
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 16px;
+    border-radius: 18px;
+  }
 `;
 
 const SearchButton = styled.button`
-  padding: 12px 24px;
-  font-size: 16px;
+  padding: 8px 16px; /* Reduzido de 12px 24px */
+  font-size: 12px; /* Reduzido de 16px */
   background-color: #ff9c00;
   color: #ffffff;
   border: none;
-  border-radius: 18px;
+  border-radius: 12px; /* Reduzido de 18px */
   cursor: pointer;
 
   &:hover {
     background-color: #aa6600;
+  }
+
+  @media (min-width: 280px) {
+    padding: 9px 18px;
+    font-size: 13px;
+  }
+
+  @media (min-width: 320px) {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 14px;
+  }
+
+  @media (min-width: 375px) {
+    padding: 11px 22px;
+  }
+
+  @media (min-width: 468px) {
+    padding: 12px 24px;
+    font-size: 15px;
+    border-radius: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 16px;
+    border-radius: 18px;
   }
 `;

@@ -164,30 +164,97 @@ export default function PaginaReceita() {
 
 const ContainerCard = styled.section`
   display: flex;
-  margin: 150px auto;
-  width: 800px;
-  padding: 24px;
+  margin: 50px auto; /* Reduzido de 150px */
+  width: 100%; /* Mudado de 800px fixo pra se ajustar à tela */
+  max-width: 800px; /* Mantém o limite máximo */
+  padding: 12px; /* Reduzido de 24px */
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
-  border-radius: 24px;
+  gap: 12px; /* Reduzido de 24px */
+  border-radius: 16px; /* Reduzido de 24px */
   background-color: #f0e8c2;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25); /* Sombra reduzida */
 
   img {
     width: 100%;
     object-fit: cover;
-    min-width: 800px;
-    height: 400px;
+    min-width: 0; /* Removido 800px fixo pra se adaptar */
+    height: 200px; /* Reduzido de 400px */
     align-self: center;
-    border-radius: 16px;
-  }  
+    border-radius: 10px; /* Reduzido de 16px */
+  }
+
+  /* 280px (ex.: Galaxy Fold) */
+  @media (min-width: 280px) {
+    margin: 60px auto;
+    padding: 14px;
+    gap: 14px;
+    border-radius: 18px;
+    img {
+      height: 220px;
+    }
+  }
+
+  /* 320px (ex.: iPhone SE) */
+  @media (min-width: 320px) {
+    margin: 80px auto;
+    padding: 16px;
+    gap: 16px;
+    img {
+      height: 240px;
+      border-radius: 12px;
+    }
+  }
+
+  /* 375px (ex.: iPhone 12) */
+  @media (min-width: 375px) {
+    padding: 18px;
+    gap: 18px;
+    border-radius: 20px;
+    img {
+      height: 280px;
+    }
+  }
+
+  /* 468px (ex.: telas médias) */
+  @media (min-width: 468px) {
+    margin: 100px auto;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 22px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    img {
+      height: 320px;
+      border-radius: 14px;
+    }
+  }
+
+  /* 768px (ex.: tablets pequenos) */
+  @media (min-width: 768px) {
+    padding: 22px;
+    gap: 22px;
+    img {
+      height: 360px;
+    }
+  }
+
+  /* 1024px (ex.: tablets grandes) */
+  @media (min-width: 1024px) {
+    margin: 150px auto;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 24px;
+    img {
+      height: 400px;
+      border-radius: 16px;
+    }
+  }
 `;
 
 const Botao = styled.button`
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 15px;
+  padding: 6px 12px; /* Reduzido de 10px 20px */
+  font-size: 12px; /* Reduzido de 16px */
+  border-radius: 10px; /* Reduzido de 15px */
   background-color: #ff9c00;
   color: #ffffff;
   border: none;
@@ -196,10 +263,36 @@ const Botao = styled.button`
   &:hover {
     background-color: #ac6803;
   }
+
+  @media (min-width: 280px) {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+
+  @media (min-width: 320px) {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 12px;
+  }
+
+  @media (min-width: 375px) {
+    padding: 9px 18px;
+  }
+
+  @media (min-width: 468px) {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 14px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 16px;
+    border-radius: 15px;
+  }
 `;
 
 const BotaoCurtir = styled(Botao)`
-  background-color: ${(props) => (props.curtida ? "#4CAF50" : "#ff9c00")}; // Verde quando curtido
+  background-color: ${(props) => (props.curtida ? "#4CAF50" : "#ff9c00")};
   &:hover {
     background-color: ${(props) => (props.curtida ? "#388E3C" : "#ac6803")};
   }
@@ -207,9 +300,29 @@ const BotaoCurtir = styled(Botao)`
 
 const ButtonContainer = styled.div`
   display: flex;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 6px; /* Reduzido de 10px */
+  margin-top: 12px; /* Reduzido de 20px */
   justify-content: end;
+  width: 100%; /* Garante que ocupe a largura total */
+
+  @media (min-width: 280px) {
+    gap: 7px;
+    margin-top: 14px;
+  }
+
+  @media (min-width: 320px) {
+    gap: 8px;
+    margin-top: 16px;
+  }
+
+  @media (min-width: 375px) {
+    gap: 9px;
+  }
+
+  @media (min-width: 468px) {
+    gap: 10px;
+    margin-top: 20px;
+  }
 `;
 
 const ContainerLink = styled.section`
@@ -220,12 +333,31 @@ const ContainerLink = styled.section`
 
 const StateLinkReceita = styled(Link)`
   text-decoration: none;
-  border-radius: 12px;
-  padding: 12px 24px;
+  border-radius: 8px; /* Reduzido de 12px */
+  padding: 8px 16px; /* Reduzido de 12px 24px */
   background-color: #ff9c00;
   color: #ffffff;
 
   &:hover {
     text-decoration: underline;
+  }
+
+  @media (min-width: 280px) {
+    padding: 9px 18px;
+    border-radius: 9px;
+  }
+
+  @media (min-width: 320px) {
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  @media (min-width: 375px) {
+    padding: 11px 22px;
+  }
+
+  @media (min-width: 468px) {
+    padding: 12px 24px;
+    border-radius: 12px;
   }
 `;

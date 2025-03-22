@@ -7,6 +7,7 @@ export default function PaginaReceita() {
   const { estado, receita } = useParams();
   const [dadosReceita, setDadosReceita] = useState(null);
   const [proximaReceita, setProximaReceita] = useState(null);
+  const [curtida, setCurtida] = useState(false);
 
   const normalizarString = (str) =>
     str
@@ -44,6 +45,11 @@ export default function PaginaReceita() {
 
         const receitaEncontrada = data.receitas[receitaAtualIndex];
         setDadosReceita(receitaEncontrada);
+
+        // Carrega o estado de curtida do localStorage
+        const chaveCurtida = `${estadoNormalizado}-${receita}`;
+        const curtidaSalva = localStorage.getItem(chaveCurtida);
+        setCurtida(curtidaSalva === "true");
 
         // Define a próxima receita (circular: volta pro início se for a última)
         const proximaIndex = (receitaAtualIndex + 1) % data.receitas.length;
@@ -83,7 +89,36 @@ export default function PaginaReceita() {
     doc.save(`${dadosReceita.nome}.pdf`);
   };
 
+  const toggleCurtida = () => {
+    const novaCurtida = !curtida;
+    setCurtida(novaCurtida);
+    const chaveCurtida = `${normalizarString(estado)}-${receita}`;
+    localStorage.setItem(chaveCurtida, novaCurtida);
+  };
+
+  const compartilharReceita = async () => {
+    if (!dadosReceita) return;
+    const url = `${window.location.origin}/${estado}/${receita}`;
+    const texto = `Confira essa receita incrível: ${dadosReceita.nome} do estado ${estado}!`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: dadosReceita.nome,
+          text: texto,
+          url: url,
+        });
+      } catch (error) {
+        console.error("Erro ao compartilhar:", error);
+      }
+    } else {
+      navigator.clipboard.writeText(url);
+      alert("Link da receita copiado para o clipboard!");
+    }
+  };
+
   if (!dadosReceita) return <p>Carregando receita...</p>;
+
   return (
     <ContainerCard>
       <ContainerLink>
@@ -96,6 +131,7 @@ export default function PaginaReceita() {
         <img src={dadosReceita.imagem} alt={dadosReceita.nome} />
         <div>
           <h2>{dadosReceita.nome}</h2>
+          <p>{dadosReceita.descricao}</p>
           <ul>
             <li>Tempo de Preparo: {dadosReceita.tempo_de_preparo}</li>
             <li>Rendimento: {dadosReceita.rendimento}</li>
@@ -113,7 +149,13 @@ export default function PaginaReceita() {
             <h3>Modo de Preparo</h3>
             <p>{dadosReceita.modo_de_preparo.join(" ")}</p>
           </div>
-          <Botao onClick={gerarPDF}>Baixar Receita em PDF</Botao>
+          <ButtonContainer>
+            <Botao onClick={gerarPDF}>Baixar Receita em PDF</Botao>
+            <BotaoCurtir curtida={curtida} onClick={toggleCurtida}>
+              {curtida ? "Curtido" : "Curtir"}
+            </BotaoCurtir>
+            <Botao onClick={compartilharReceita}>Compartilhar</Botao>
+          </ButtonContainer>
         </div>
       </div>
     </ContainerCard>
@@ -154,6 +196,20 @@ const Botao = styled.button`
   &:hover {
     background-color: #ac6803;
   }
+`;
+
+const BotaoCurtir = styled(Botao)`
+  background-color: ${(props) => (props.curtida ? "#4CAF50" : "#ff9c00")}; // Verde quando curtido
+  &:hover {
+    background-color: ${(props) => (props.curtida ? "#388E3C" : "#ac6803")};
+  }
+`;
+
+const ButtonContainer = styled.div`
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: end;
 `;
 
 const ContainerLink = styled.section`

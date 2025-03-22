@@ -1,0 +1,138 @@
+{
+    "nome": "Distrito Federal",
+    "sigla": "DF",
+    "historia": "A culinária do Distrito Federal é um reflexo da sua identidade cosmopolita, formada pela chegada de migrantes de todo o Brasil, especialmente do Centro-Oeste, Nordeste e Sudeste. Sem uma tradição indígena forte, o DF criou uma cozinha eclética, onde pratos como o arroz com pequi e a galinhada representam o sertão goiano próximo, enquanto influências urbanas trazem pizzas e lanches. A mandioca e o milho são bases frequentes, e a proximidade com Goiás adiciona sabores rústicos a uma capital moderna, resultando em uma gastronomia diversa e acolhedora.",
+    "receitas": [
+      {
+        "nome": "Arroz com Pequi",
+        "tipo": "salgado",
+        "descricao": "Prato típico da região Centro-Oeste, com arroz cozido com o fruto pequi, muito comum no DF.",
+        "ingredientes": [
+          "2 xícaras de arroz",
+          "6 pequis maduros (frescos ou em conserva)",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Lave os pequis e corte-os ao meio, retirando os caroços com cuidado (use luvas, pois o pequi mancha).",
+          "Em uma panela, aqueça o óleo e refogue o alho e a cebola até dourarem.",
+          "Adicione os pequis e refogue por 5 minutos, mexendo delicadamente.",
+          "Junte o arroz, misture bem, adicione 4 xícaras de água e sal a gosto.",
+          "Cozinhe em fogo baixo até o arroz secar (cerca de 15 minutos).",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/DistritoFederal/arroz-com-pequi.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Galinhada do Cerrado",
+        "tipo": "salgado",
+        "descricao": "Galinhada rústica com temperos do Centro-Oeste, popular no DF por sua simplicidade.",
+        "ingredientes": [
+          "1kg de coxa e sobrecoxa de frango",
+          "2 xícaras de arroz",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "1 colher de sopa de colorau",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o frango com sal, pimenta e colorau e deixe marinar por 30 minutos.",
+          "Em uma panela grande, aqueça o óleo e doure o frango por todos os lados (cerca de 10 minutos).",
+          "Adicione a cebola, o alho e os tomates, refogando até amolecerem.",
+          "Junte o arroz, misture bem, e adicione 4 xícaras de água fervente.",
+          "Cozinhe em fogo baixo por 20 minutos, até o arroz secar e o frango estar macio.",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/DistritoFederal/galinhada-do-cerrado.avif",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Sopa Paraguaia",
+        "tipo": "salgado",
+        "descricao": "Bolo salgado de milho com queijo, influência regional adotada no DF.",
+        "ingredientes": [
+          "2 xícaras de fubá",
+          "1 xícara de leite",
+          "200g de queijo meia cura ralado",
+          "2 ovos",
+          "1 cebola picada",
+          "2 colheres de sopa de óleo",
+          "1 colher de sopa de fermento em pó",
+          "Sal a gosto"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com óleo.",
+          "Refogue a cebola no óleo até ficar transparente e reserve.",
+          "Em uma tigela, misture o fubá, o leite, os ovos, o queijo, o sal e a cebola refogada.",
+          "Adicione o fermento e misture delicadamente.",
+          "Despeje na forma e asse por 40 minutos, até dourar por cima.",
+          "Sirva quente ou frio, cortado em pedaços."
+        ],
+        "rendimento": "8 porções, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/DistritoFederal/sopa-paraguaia.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Pamonha de Forno",
+        "tipo": "doce",
+        "descricao": "Versão assada da pamonha, doce e cremosa, comum nas festas do DF.",
+        "ingredientes": [
+          "4 espigas de milho verde (ou 2 xícaras de milho debulhado)",
+          "1 xícara de açúcar",
+          "200ml de leite de coco",
+          "2 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "No liquidificador, bata o milho, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente com uma colher.",
+          "Despeje a massa na forma e asse por 40 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/DistritoFederal/pamonha-de-forno.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Caldo de Mandioca com Carne Seca",
+        "tipo": "salgado",
+        "descricao": "Caldo quente e reconfortante, com mandioca e carne seca, típico do DF.",
+        "ingredientes": [
+          "500g de mandioca descascada",
+          "300g de carne seca dessalgada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne seca em água por 12 horas, trocando a água algumas vezes, depois cozinhe e desfie.",
+          "Cozinhe a mandioca em água com sal por 20 minutos, até ficar macia, e bata no liquidificador com parte da água do cozimento até formar um creme.",
+          "Em uma panela, aqueça o óleo e refogue o alho e a cebola até dourarem.",
+          "Adicione a carne seca desfiada e refogue por 5 minutos.",
+          "Junte o creme de mandioca, ajuste o sal e a pimenta, e cozinhe por 10 minutos em fogo baixo.",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "45 minutos (após dessalgar)",
+        "imagem": "/imagem/DistritoFederal/caldo-de-mandioca-com-carne-seca.webp",
+        "dificuldade": "Médio"
+      }
+    ]
+  }

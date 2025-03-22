@@ -97,7 +97,7 @@ const Container = styled.div`
   width: 256px;
   padding: 20px;
   background: rgba(8, 70, 0, 0.56);
-  height: 1000px;
+  height: 1100px;
   flex-shrink: 0;
   border-radius: 28px;
   box-shadow: 0px 64px 64px -32px rgba(41, 15, 0, 0.56);

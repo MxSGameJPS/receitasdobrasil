@@ -25,7 +25,7 @@
     },
     {
       "estado": "Distrito Federal",
-      "json": "/receitas/distrito-federal.json"
+      "json": "/receitas/centrooeste/distrito-federal.json"
     },
     {
       "estado": "Espírito Santo",
@@ -33,7 +33,7 @@
     },
     {
       "estado": "Goiás",
-      "json": "/receitas/goias.json"
+      "json": "/receitas/centrooeste/goias.json"
     },
     {
       "estado": "Maranhão",

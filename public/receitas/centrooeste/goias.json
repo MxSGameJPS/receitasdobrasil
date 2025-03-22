@@ -1,0 +1,138 @@
+{
+    "nome": "Goiás",
+    "sigla": "GO",
+    "historia": "A culinária de Goiás é um retrato do Cerrado, onde o sabor rústico do interior se mistura às tradições indígenas e portuguesas. O pequi, fruto símbolo da região, marca pratos como o arroz e o frango com pequi, enquanto o milho e a mandioca aparecem em pamonhas e caldos. A carne, seja de gado ou porco, reflete a vida agropecuária, e os doces de frutas regionais, como o de caju, completam a mesa. É uma cozinha simples, mas cheia de personalidade, que celebra a abundância da terra goiana.",
+    "receitas": [
+      {
+        "nome": "Frango com Pequi",
+        "tipo": "salgado",
+        "descricao": "Prato clássico goiano, com frango cozido em molho com pequi, típico do Cerrado.",
+        "ingredientes": [
+          "1kg de coxa e sobrecoxa de frango",
+          "6 pequis maduros (frescos ou em conserva)",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "2 colheres de sopa de óleo",
+          "1 colher de chá de colorau",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o frango com sal, pimenta e colorau e deixe marinar por 30 minutos.",
+          "Lave os pequis, corte ao meio e retire os caroços com cuidado (use luvas pra evitar manchas).",
+          "Em uma panela, aqueça o óleo e doure o frango por todos os lados (cerca de 10 minutos).",
+          "Adicione a cebola, o alho e os tomates, refogando até amolecerem.",
+          "Junte os pequis, cubra com água (cerca de 2 xícaras) e cozinhe em fogo baixo por 30 minutos, até o frango ficar macio.",
+          "Finalize com cheiro-verde e sirva com arroz branco."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Goias/frango-com-pequi.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Pamonha Doce",
+        "tipo": "doce",
+        "descricao": "Pamonha tradicional goiana, feita com milho verde e açúcar, cozida na palha.",
+        "ingredientes": [
+          "6 espigas de milho verde com palha",
+          "1 xícara de açúcar",
+          "200ml de leite",
+          "1 pitada de sal",
+          "2 colheres de sopa de manteiga"
+        ],
+        "modo_de_preparo": [
+          "Retire as palhas das espigas com cuidado, reservando as maiores pra embrulhar.",
+          "Rale o milho ou corte os grãos e bata no liquidificador com o leite até ficar homogêneo.",
+          "Misture o açúcar, o sal e a manteiga na massa até incorporar bem.",
+          "Coloque a massa nas palhas dobradas em forma de copo, feche bem com tiras de palha ou barbante.",
+          "Cozinhe as pamonhas em água fervente por 40 minutos.",
+          "Deixe esfriar um pouco antes de servir."
+        ],
+        "rendimento": "6 pamonhas, serve 4-6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Goias/pamonha-doce.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Empadão Goiano",
+        "tipo": "salgado",
+        "descricao": "Torta salgada recheada com frango, linguiça e palmito, ícone da culinária de Goiás.",
+        "ingredientes": [
+          "500g de farinha de trigo",
+          "200g de manteiga",
+          "2 ovos",
+          "1kg de frango cozido e desfiado",
+          "200g de linguiça calabresa picada",
+          "100g de palmito picado",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Para a massa, misture a farinha, a manteiga e 1 ovo até formar uma massa homogênea; reserve na geladeira por 30 minutos.",
+          "Para o recheio, refogue o alho e a cebola no óleo, adicione a linguiça e cozinhe por 5 minutos.",
+          "Junte o frango desfiado, o palmito, sal e pimenta, cozinhando por mais 10 minutos; deixe esfriar.",
+          "Divida a massa em duas partes, abra uma e forre uma forma, coloque o recheio e cubra com a outra parte da massa.",
+          "Pincele com 1 ovo batido e asse a 180°C por 40 minutos, até dourar.",
+          "Sirva quente ou frio, cortado em fatias."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "1 hora e 30 minutos",
+        "imagem": "/imagem/Goias/empadao-goiano.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Caldo de Pintado",
+        "tipo": "salgado",
+        "descricao": "Caldo cremoso de peixe pintado com mandioca, típico da região goiana.",
+        "ingredientes": [
+          "1kg de filé de pintado cortado em cubos",
+          "500g de mandioca descascada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "2 colheres de sopa de óleo",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 20 minutos.",
+          "Cozinhe a mandioca em água com sal por 20 minutos, até ficar macia, e bata no liquidificador com parte da água até formar um creme.",
+          "Em uma panela, aqueça o óleo e refogue o alho, a cebola e os tomates até amolecerem.",
+          "Adicione o peixe e cozinhe por 10 minutos, mexendo delicadamente.",
+          "Junte o creme de mandioca, ajuste o sal e cozinhe por mais 10 minutos em fogo baixo.",
+          "Finalize com coentro e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Goias/caldo-de-pintado.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Doce de Caju",
+        "tipo": "doce",
+        "descricao": "Doce caseiro feito com polpa de caju, tradicional nas sobremesas goianas.",
+        "ingredientes": [
+          "1kg de caju maduro (polpa)",
+          "2 xícaras de açúcar",
+          "1 xícara de água",
+          "1 canela em pau",
+          "2 cravos-da-índia"
+        ],
+        "modo_de_preparo": [
+          "Retire a polpa dos cajus e bata no liquidificador com a água até ficar homogêneo.",
+          "Em uma panela, misture a polpa, o açúcar, a canela e os cravos.",
+          "Cozinhe em fogo médio, mexendo sempre, por 30 minutos, até engrossar e soltar do fundo da panela.",
+          "Retire a canela e os cravos, deixe esfriar e sirva em potes ou como sobremesa."
+        ],
+        "rendimento": "10 porções, serve 8-10 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Goias/doce-de-caju.webp",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

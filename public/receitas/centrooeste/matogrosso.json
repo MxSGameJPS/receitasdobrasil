@@ -1,0 +1,134 @@
+{
+    "nome": "Mato Grosso",
+    "sigla": "MT",
+    "historia": "A culinária do Mato Grosso é um espelho da sua vastidão geográfica, unindo o Pantanal e o Cerrado em pratos que celebram a natureza e a vida rural. Peixes como o pacu e o pintado, abundantes nos rios, são estrelas em assados e caldos, enquanto a carne bovina, herança da pecuária, aparece em receitas robustas como a maria izabel. A mandioca e o milho, bases da alimentação indígena e tropeira, completam a mesa com sabores simples e intensos, numa gastronomia que reflete a força da terra e a mistura de culturas.",
+    "receitas": [
+      {
+        "nome": "Pacu Assado",
+        "tipo": "salgado",
+        "descricao": "Peixe típico do Pantanal, assado com temperos simples que realçam seu sabor.",
+        "ingredientes": [
+          "1 pacu inteiro (cerca de 1,5kg), limpo",
+          "Suco de 2 limões",
+          "2 dentes de alho amassados",
+          "1 cebola picada",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o pacu com limão, sal, pimenta e alho, e deixe marinar por 1 hora.",
+          "Preaqueça o forno a 200°C ou prepare uma churrasqueira.",
+          "Recheie o peixe com a cebola e o cheiro-verde, regue com azeite e embrulhe em papel alumínio.",
+          "Asse por 40 minutos (ou na churrasqueira por 30 minutos), virando na metade do tempo.",
+          "Retire o alumínio nos últimos 10 minutos pra dourar e sirva com farofa ou pirão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "1 hora e 30 minutos",
+        "imagem": "/imagem/MatoGrosso/pacu-assado.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Maria Izabel",
+        "tipo": "salgado",
+        "descricao": "Prato tradicional com carne seca e arroz, herança dos tropeiros no Mato Grosso.",
+        "ingredientes": [
+          "500g de carne seca dessalgada",
+          "2 xícaras de arroz",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne seca em água por 12 horas, trocando a água algumas vezes, depois cozinhe e desfie.",
+          "Em uma panela, aqueça o óleo e refogue o alho e a cebola até dourarem.",
+          "Adicione a carne desfiada e refogue por 5 minutos.",
+          "Junte o arroz, misture bem, adicione 4 xícaras de água fervente e tempere com sal e pimenta.",
+          "Cozinhe em fogo baixo por 20 minutos, até o arroz secar.",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "40 minutos (após dessalgar)",
+        "imagem": "/imagem/MatoGrosso/maria-izabel.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Mojica de Pintado",
+        "tipo": "salgado",
+        "descricao": "Ensopado pantaneiro de peixe pintado com mandioca, típico do Mato Grosso.",
+        "ingredientes": [
+          "1kg de filé de pintado cortado em cubos",
+          "500g de mandioca descascada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "2 colheres de sopa de óleo",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 20 minutos.",
+          "Cozinhe a mandioca em água com sal por 20 minutos, até ficar macia, escorra e reserve.",
+          "Em uma panela, aqueça o óleo e refogue o alho, a cebola e os tomates até amolecerem.",
+          "Adicione o peixe e cozinhe por 10 minutos, mexendo delicadamente.",
+          "Junte a mandioca cozida, ajuste o sal e cozinhe por mais 10 minutos em fogo baixo.",
+          "Finalize com coentro e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/MatoGrosso/mojica-de-pintado.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Milho Pantaneiro",
+        "tipo": "doce",
+        "descricao": "Bolo cremoso de milho verde, tradicional nas festas do Mato Grosso.",
+        "ingredientes": [
+          "4 espigas de milho verde (ou 2 xícaras de milho debulhado)",
+          "1 xícara de açúcar",
+          "200ml de leite de coco",
+          "2 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "No liquidificador, bata o milho, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente com uma colher.",
+          "Despeje a massa na forma e asse por 40 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/MatoGrosso/bolo-de-milho-pantaneiro.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Farofa de Banana-da-Terra",
+        "tipo": "salgado",
+        "descricao": "Farofa simples com banana-da-terra, acompanhamento típico do Mato Grosso.",
+        "ingredientes": [
+          "2 bananas-da-terra maduras",
+          "1 xícara de farinha de mandioca",
+          "1 cebola picada",
+          "2 colheres de sopa de manteiga",
+          "Sal a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Descasque e corte as bananas em rodelas finas.",
+          "Em uma frigideira, derreta a manteiga e refogue a cebola até dourar.",
+          "Adicione as bananas e frite por 5 minutos, até amolecerem.",
+          "Junte a farinha de mandioca e mexa por mais 5 minutos, até ficar crocante.",
+          "Tempere com sal, finalize com cheiro-verde e sirva como acompanhamento."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "20 minutos",
+        "imagem": "/imagem/MatoGrosso/farofa-de-banana-da-terra.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

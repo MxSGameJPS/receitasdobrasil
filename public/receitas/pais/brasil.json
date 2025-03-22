@@ -29,7 +29,7 @@
     },
     {
       "estado": "Espírito Santo",
-      "json": "/receitas/espirito-santo.json"
+      "json": "/receitas/sudeste/espirito-santo.json"
     },
     {
       "estado": "Goiás",
@@ -41,11 +41,11 @@
     },
     {
       "estado": "Mato Grosso",
-      "json": "/receitas/mato-grosso.json"
+      "json": "/receitas/centrooeste/matogrosso.json"
     },
     {
       "estado": "Mato Grosso do Sul",
-      "json": "/receitas/mato-grosso-do-sul.json"
+      "json": "/receitas/centrooeste/matogrossodosul.json"
     },
     {
       "estado": "Minas Gerais",

@@ -1,0 +1,131 @@
+{
+    "nome": "Mato Grosso do Sul",
+    "sigla": "MS",
+    "historia": "A culinária do Mato Grosso do Sul é um reflexo do Pantanal e da vida pecuarista, enriquecida por influências indígenas, paraguaias e dos tropeiros. Peixes como o pintado e o pacu reinam em caldos e assados, enquanto a carne bovina brilha em pratos como o churrasco pantaneiro. O milho aparece em bolos e sopas, e a mandioca é base de acompanhamentos como o mandi’o chyryry. Essa mistura resulta numa gastronomia robusta e acolhedora, que celebra a abundância dos rios e das pastagens sul-mato-grossenses.",
+    "receitas": [
+      {
+        "nome": "Pintado na Brasa",
+        "tipo": "salgado",
+        "descricao": "Peixe pintado assado na brasa, prato típico do Pantanal sul-mato-grossense.",
+        "ingredientes": [
+          "1 pintado inteiro (cerca de 1,5kg), limpo",
+          "Suco de 2 limões",
+          "2 dentes de alho amassados",
+          "1 cebola picada",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o pintado com limão, sal, pimenta e alho, e deixe marinar por 1 hora.",
+          "Prepare a churrasqueira ou forno a 200°C.",
+          "Recheie o peixe com a cebola e o coentro, regue com azeite e embrulhe em papel alumínio.",
+          "Asse na brasa por 30 minutos (ou no forno por 40 minutos), virando na metade do tempo.",
+          "Retire o alumínio nos últimos 10 minutos pra dourar e sirva com farofa ou pirão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "1 hora e 30 minutos",
+        "imagem": "/imagem/MatoGrossoDoSul/pintado-na-brasa.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Sopa Paraguaia",
+        "tipo": "salgado",
+        "descricao": "Bolo salgado de milho com queijo, influência paraguaia muito popular no MS.",
+        "ingredientes": [
+          "2 xícaras de fubá",
+          "1 xícara de leite",
+          "200g de queijo meia cura ralado",
+          "2 ovos",
+          "1 cebola picada",
+          "2 colheres de sopa de óleo",
+          "1 colher de sopa de fermento em pó",
+          "Sal a gosto"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com óleo.",
+          "Refogue a cebola no óleo até ficar transparente e reserve.",
+          "Em uma tigela, misture o fubá, o leite, os ovos, o queijo, o sal e a cebola refogada.",
+          "Adicione o fermento e misture delicadamente.",
+          "Despeje na forma e asse por 40 minutos, até dourar por cima.",
+          "Sirva quente ou frio, cortado em pedaços."
+        ],
+        "rendimento": "8 porções, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/MatoGrossoDoSul/sopa-paraguaia.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Caldo de Piranha",
+        "tipo": "salgado",
+        "descricao": "Caldo picante de piranha, tradicional do Pantanal sul-mato-grossense.",
+        "ingredientes": [
+          "1kg de piranhas limpas (inteiras ou em pedaços)",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "1 pimentão verde picado",
+          "2 colheres de sopa de óleo",
+          "1 colher de chá de pimenta dedo-de-moça picada (ou a gosto)",
+          "Sal a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, aqueça o óleo e refogue o alho, a cebola, o pimentão e os tomates até amolecerem.",
+          "Adicione as piranhas, cubra com água (cerca de 1,5 litro) e tempere com sal e pimenta.",
+          "Cozinhe em fogo médio por 30 minutos, até o peixe desfiar e o caldo engrossar.",
+          "Ajuste o sal, finalize com coentro e sirva quente, com pão ou farofa."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/MatoGrossoDoSul/caldo-de-piranha.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Churrasco Pantaneiro",
+        "tipo": "salgado",
+        "descricao": "Churrasco simples de carne bovina, típico da cultura pecuarista do MS.",
+        "ingredientes": [
+          "1kg de costela bovina ou picanha",
+          "Sal grosso a gosto",
+          "2 colheres de sopa de azeite",
+          "Pimenta-do-reino a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere a carne com sal grosso, azeite e pimenta, e deixe descansar por 30 minutos.",
+          "Prepare a churrasqueira com brasa média.",
+          "Asse a carne por 20-30 minutos, virando de vez em quando, até atingir o ponto desejado.",
+          "Corte em pedaços e sirva com mandioca cozida ou farofa."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/MatoGrossoDoSul/churrasco-pantaneiro.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Bolo de Mandioca com Coco",
+        "tipo": "doce",
+        "descricao": "Bolo cremoso de mandioca com coco, sobremesa tradicional do Mato Grosso do Sul.",
+        "ingredientes": [
+          "1kg de mandioca ralada",
+          "2 xícaras de açúcar",
+          "200ml de leite de coco",
+          "100g de coco ralado",
+          "3 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "Em uma tigela, misture a mandioca ralada, o açúcar, o leite de coco, o coco ralado, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente.",
+          "Despeje a massa na forma e asse por 50 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "10 fatias, serve 8-10 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/MatoGrossoDoSul/bolo-de-mandioca-com-coco.webp",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

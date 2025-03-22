@@ -1,0 +1,135 @@
+{
+    "nome": "Espírito Santo",
+    "sigla": "ES",
+    "historia": "A culinária do Espírito Santo é um encontro harmonioso entre o mar e a terra, moldada por influências indígenas, portuguesas e africanas. No litoral, a moqueca capixaba, feita com peixe e urucum, é um ícone, servida em panelas de barro que carregam tradição. No interior, milho, mandioca e café refletem a vida rural, enquanto doces como o de batata-doce mostram a criatividade local. Essa mistura resulta numa gastronomia única, simples e cheia de sabor, que celebra a diversidade cultural e natural do estado.",
+    "receitas": [
+      {
+        "nome": "Moqueca Capixaba",
+        "tipo": "salgado",
+        "descricao": "Prato icônico do Espírito Santo, com peixe cozido em panela de barro e temperos naturais.",
+        "ingredientes": [
+          "1kg de peixe em postas (badejo, robalo ou namorado)",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 colheres de sopa de azeite",
+          "1 colher de chá de urucum (colorau)",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 30 minutos.",
+          "Em uma panela de barro (ou comum), aqueça o azeite e refogue o urucum por 1 minuto.",
+          "Faça camadas com a cebola, o pimentão, os tomates e o peixe, sem mexer muito.",
+          "Adicione 1/2 xícara de água, tampe e cozinhe em fogo baixo por 20 minutos, até o peixe ficar macio.",
+          "Finalize com coentro e sirva com arroz branco e pirão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/EspiritoSanto/moqueca-capixaba.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Torta Capixaba",
+        "tipo": "salgado",
+        "descricao": "Prato tradicional da Semana Santa, com frutos do mar e palmito, sem massa.",
+        "ingredientes": [
+          "200g de siri desfiado",
+          "200g de camarão limpo",
+          "100g de palmito picado",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "2 colheres de sopa de azeite",
+          "3 ovos batidos",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Aqueça o azeite e refogue o alho, a cebola e os tomates até amolecerem.",
+          "Adicione o camarão e cozinhe por 5 minutos, depois junte o siri e o palmito.",
+          "Tempere com sal, pimenta e coentro, e cozinhe por mais 5 minutos.",
+          "Desligue o fogo, misture os ovos batidos e coloque em uma forma untada.",
+          "Asse a 180°C por 25 minutos, até firmar, e sirva quente ou frio."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/EspiritoSanto/torta-capixaba.jpeg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Pão de Milho Capixaba",
+        "tipo": "salgado",
+        "descricao": "Pão rústico de milho, comum no interior do Espírito Santo.",
+        "ingredientes": [
+          "2 xícaras de fubá",
+          "1 xícara de farinha de trigo",
+          "1 xícara de leite",
+          "1/2 xícara de açúcar",
+          "2 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó",
+          "1 pitada de sal"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "Em uma tigela, misture o fubá, a farinha, o açúcar e o sal.",
+          "Adicione o leite, os ovos e a manteiga, mexendo até ficar homogêneo.",
+          "Incorpore o fermento delicadamente e despeje a massa na forma.",
+          "Asse por 35 minutos, até dourar, e sirva quente ou frio."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/EspiritoSanto/pao-de-milho-capixaba.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Doce de Batata-Doce",
+        "tipo": "doce",
+        "descricao": "Doce caseiro de batata-doce, tradicional nas sobremesas capixabas.",
+        "ingredientes": [
+          "1kg de batata-doce cozida e amassada",
+          "2 xícaras de açúcar",
+          "200ml de leite de coco",
+          "1 canela em pau",
+          "2 cravos-da-índia"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, misture a batata-doce amassada, o açúcar, o leite de coco, a canela e os cravos.",
+          "Cozinhe em fogo médio, mexendo sempre, por 30 minutos, até engrossar e soltar do fundo da panela.",
+          "Retire a canela e os cravos, deixe esfriar e sirva em potes ou como sobremesa."
+        ],
+        "rendimento": "10 porções, serve 8-10 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/EspiritoSanto/doce-de-batata-doce.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Caldo de Sururu",
+        "tipo": "salgado",
+        "descricao": "Caldo quente de sururu (marisco local), típico do litoral capixaba.",
+        "ingredientes": [
+          "1kg de sururu limpo",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "1 pimentão verde picado",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Lave bem o sururu em água corrente e reserve.",
+          "Em uma panela, aqueça o azeite e refogue o alho, a cebola, o pimentão e os tomates até amolecerem.",
+          "Adicione o sururu, cubra com água (cerca de 1 litro) e tempere com sal e pimenta.",
+          "Cozinhe em fogo médio por 20 minutos, até os mariscos abrirem e o caldo engrossar.",
+          "Finalize com coentro e sirva quente, com pão ou farofa."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "35 minutos",
+        "imagem": "/imagem/EspiritoSanto/caldo-de-sururu.webp",
+        "dificuldade": "Médio"
+      }
+    ]
+  }

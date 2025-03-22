@@ -1,0 +1,135 @@
+{
+    "nome": "Rio de Janeiro",
+    "sigla": "RJ",
+    "historia": "A culinária do Rio de Janeiro é um caldeirão vibrante, nascido da mistura de influências portuguesas, africanas e indígenas, temperada pelo clima tropical e pela vida à beira-mar. A feijoada, herança dos escravizados, é um marco, enquanto peixes e frutos do mar brilham em pratos leves e frescos, como o filé de peixe frito. Nas ruas, bolinhos de bacalhau e picadinhos convivem com sobremesas geladas, como o açaí. É uma cozinha que pulsa com a energia carioca, unindo o rústico ao cosmopolita em cada garfada.",
+    "receitas": [
+      {
+        "nome": "Feijoada Carioca",
+        "tipo": "salgado",
+        "descricao": "Prato símbolo do Rio, com feijão preto e carnes variadas, servido com acompanhamentos.",
+        "ingredientes": [
+          "500g de feijão preto",
+          "200g de carne seca dessalgada",
+          "200g de costelinha de porco",
+          "100g de linguiça calabresa",
+          "100g de paio",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Deixe o feijão de molho por 12 horas, depois cozinhe em água por 40 minutos e reserve.",
+          "Dessalgue a carne seca em água por 12 horas, trocando a água, e cozinhe por 20 minutos; corte em pedaços.",
+          "Em uma panela grande, aqueça o óleo e refogue o alho e a cebola até dourarem.",
+          "Adicione as carnes (carne seca, costelinha, linguiça e paio) e frite por 10 minutos.",
+          "Junte o feijão com o caldo, ajuste o sal e cozinhe por 1 hora em fogo baixo, mexendo às vezes.",
+          "Finalize com cheiro-verde e sirva com arroz, couve, farofa e laranja."
+        ],
+        "rendimento": "8 porções, serve 8 pessoas",
+        "tempo_de_preparo": "2 horas (após dessalgar)",
+        "imagem": "/imagem/RioDeJaneiro/feijoada-carioca.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolinho de Bacalhau",
+        "tipo": "salgado",
+        "descricao": "Petisco tradicional carioca, feito com bacalhau e batata, frito até ficar crocante.",
+        "ingredientes": [
+          "500g de bacalhau dessalgado",
+          "500g de batata cozida e amassada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 ovos",
+          "2 colheres de sopa de farinha de trigo",
+          "Salsinha picada a gosto",
+          "Sal e pimenta a gosto",
+          "Óleo para fritar"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue o bacalhau em água por 24 horas, trocando a água, depois cozinhe e desfie.",
+          "Em uma tigela, misture o bacalhau desfiado, a batata amassada, a cebola, o alho, os ovos, a farinha, a salsinha, o sal e a pimenta.",
+          "Modele bolinhos com uma colher e frite em óleo quente até dourarem (cerca de 5 minutos por lado).",
+          "Escorra em papel-toalha e sirva quente, com limão ou molho de pimenta."
+        ],
+        "rendimento": "20 bolinhos, serve 6-8 pessoas",
+        "tempo_de_preparo": "1 hora (após dessalgar)",
+        "imagem": "/imagem/RioDeJaneiro/bolinho-de-bacalhau.avif",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Filé de Peixe Frito",
+        "tipo": "salgado",
+        "descricao": "Peixe frito simples, clássico dos quiosques e praias cariocas.",
+        "ingredientes": [
+          "1kg de filé de peixe (tilápia ou linguado)",
+          "Suco de 2 limões",
+          "1 xícara de farinha de trigo",
+          "1 xícara de farinha de milho",
+          "2 ovos batidos",
+          "Sal e pimenta a gosto",
+          "Óleo para fritar"
+        ],
+        "modo_de_preparo": [
+          "Tempere os filés com limão, sal e pimenta e deixe marinar por 30 minutos.",
+          "Misture a farinha de trigo e a farinha de milho em um prato.",
+          "Passe os filés nos ovos batidos e depois na mistura de farinhas, cobrindo bem.",
+          "Frite em óleo quente por 5 minutos de cada lado, até dourar.",
+          "Escorra em papel-toalha e sirva com limão e batata frita."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/RioDeJaneiro/file-de-peixe-frito.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Picadinho Carioca",
+        "tipo": "salgado",
+        "descricao": "Carne em cubos com molho, típico dos botecos do Rio de Janeiro.",
+        "ingredientes": [
+          "500g de alcatra em cubos",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "1 colher de sopa de extrato de tomate",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Salsinha picada a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere a carne com sal e pimenta e reserve.",
+          "Em uma panela, aqueça o óleo e doure a carne por 10 minutos.",
+          "Adicione o alho, a cebola e os tomates, refogando até amolecerem.",
+          "Junte o extrato de tomate e 1 xícara de água, cozinhe em fogo baixo por 20 minutos, até o molho engrossar.",
+          "Finalize com salsinha e sirva com arroz e farofa."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/RioDeJaneiro/picadinho-carioca.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Açaí na Tigela",
+        "tipo": "doce",
+        "descricao": "Sobremesa gelada e energética, popular nas praias cariocas.",
+        "ingredientes": [
+          "400g de polpa de açaí congelada",
+          "1 banana madura",
+          "1/2 xícara de guaraná em xarope (ou suco)",
+          "2 colheres de sopa de mel (opcional)",
+          "Granola a gosto"
+        ],
+        "modo_de_preparo": [
+          "No liquidificador, bata a polpa de açaí com o guaraná e o mel até ficar cremoso.",
+          "Despeje em uma tigela.",
+          "Corte a banana em rodelas e coloque por cima.",
+          "Adicione granola a gosto e sirva gelado."
+        ],
+        "rendimento": "2 porções, serve 2 pessoas",
+        "tempo_de_preparo": "10 minutos",
+        "imagem": "/imagem/RioDeJaneiro/acai-na-tigela.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

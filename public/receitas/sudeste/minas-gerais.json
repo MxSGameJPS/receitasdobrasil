@@ -1,0 +1,135 @@
+{
+    "nome": "Minas Gerais",
+    "sigla": "MG",
+    "historia": "A culinária de Minas Gerais é um abraço da roça, marcada pela simplicidade e pela generosidade da vida rural. Influenciada por tradições indígenas, portuguesas e africanas, ela combina o feijão tropeiro com o tutu, o milho em pamonhas e bolos, e a carne suína em pratos como a costelinha. O queijo minas, patrimônio do estado, é estrela em receitas salgadas e doces, enquanto goiabadas e doces de leite coroam a mesa. É uma cozinha que aquece o coração, com sabores que contam histórias de família e interior.",
+    "receitas": [
+      {
+        "nome": "Feijão Tropeiro",
+        "tipo": "salgado",
+        "descricao": "Prato clássico mineiro, com feijão, farinha e linguiça, herança dos tropeiros.",
+        "ingredientes": [
+          "500g de feijão carioca cozido",
+          "200g de linguiça calabresa em rodelas",
+          "100g de bacon picado",
+          "1 xícara de farinha de mandioca",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira grande, aqueça o óleo e frite o bacon até dourar, depois adicione a linguiça e frite por mais 5 minutos.",
+          "Junte o alho e a cebola, refogando até ficarem transparentes.",
+          "Adicione o feijão cozido e misture bem, temperando com sal e pimenta.",
+          "Acrescente a farinha de mandioca aos poucos, mexendo até incorporar e ficar crocante.",
+          "Finalize com cheiro-verde e sirva com arroz e couve refogada."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/MinasGerais/feijao-tropeiro.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Pão de Queijo",
+        "tipo": "salgado",
+        "descricao": "Ícone mineiro, pãozinho leve e crocante feito com polvilho e queijo minas.",
+        "ingredientes": [
+          "2 xícaras de polvilho azedo",
+          "1 xícara de leite",
+          "1/2 xícara de óleo",
+          "2 ovos",
+          "200g de queijo minas meia cura ralado",
+          "1 colher de chá de sal"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma assadeira.",
+          "Em uma panela, aqueça o leite, o óleo e o sal até ferver.",
+          "Despeje o líquido quente sobre o polvilho em uma tigela e misture até esfriar um pouco.",
+          "Adicione os ovos e o queijo, amassando até formar uma massa homogênea.",
+          "Modele bolinhas, coloque na assadeira e asse por 25 minutos, até dourarem.",
+          "Sirva quente."
+        ],
+        "rendimento": "20 pãezinhos, serve 6-8 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/MinasGerais/pao-de-queijo.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Tutu à Mineira",
+        "tipo": "salgado",
+        "descricao": "Feijão batido com farinha e acompanhamentos, prato típico de Minas Gerais.",
+        "ingredientes": [
+          "500g de feijão preto cozido",
+          "1 xícara de farinha de mandioca",
+          "200g de linguiça calabresa em rodelas",
+          "100g de bacon picado",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Bata o feijão cozido no liquidificador com um pouco do caldo até formar um creme e reserve.",
+          "Em uma panela, aqueça o óleo e frite o bacon e a linguiça até dourarem.",
+          "Adicione o alho e a cebola, refogando até ficarem transparentes.",
+          "Junte o creme de feijão, ajuste o sal e cozinhe por 10 minutos, mexendo sempre.",
+          "Adicione a farinha aos poucos, mexendo até engrossar, e finalize com cheiro-verde.",
+          "Sirva com arroz, couve e torresmo."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/MinasGerais/tutu-a-mineira.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Frango com Quiabo",
+        "tipo": "salgado",
+        "descricao": "Prato mineiro com frango e quiabo refogados, servido com angu.",
+        "ingredientes": [
+          "1kg de coxa e sobrecoxa de frango",
+          "500g de quiabo fresco",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 tomates picados",
+          "2 colheres de sopa de óleo",
+          "1 colher de chá de colorau",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o frango com sal, pimenta e colorau e deixe marinar por 30 minutos.",
+          "Lave o quiabo, corte as pontas e refogue em uma frigideira com 1 colher de óleo por 5 minutos pra reduzir a baba; reserve.",
+          "Em uma panela, aqueça o óleo restante e doure o frango por 10 minutos.",
+          "Adicione o alho, a cebola e os tomates, refogando até amolecerem.",
+          "Junte o quiabo, cubra com água (cerca de 1 xícara) e cozinhe por 20 minutos em fogo baixo.",
+          "Finalize com cheiro-verde e sirva com angu."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/MinasGerais/frango-com-quiabo.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Doce de Leite Mineiro",
+        "tipo": "doce",
+        "descricao": "Doce cremoso de leite, clássico das sobremesas de Minas Gerais.",
+        "ingredientes": [
+          "2 litros de leite integral",
+          "3 xícaras de açúcar",
+          "1 colher de chá de bicarbonato de sódio (opcional, pra escurecer)"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela grande, misture o leite e o açúcar e leve ao fogo médio.",
+          "Cozinhe, mexendo sempre, por cerca de 1 hora e 30 minutos, até engrossar e atingir o ponto de doce (quando solta do fundo da panela).",
+          "Se usar bicarbonato, adicione no início e mexa bem pra evitar transbordo.",
+          "Deixe esfriar e sirva em potes ou com queijo minas."
+        ],
+        "rendimento": "10 porções, serve 8-10 pessoas",
+        "tempo_de_preparo": "1 hora e 40 minutos",
+        "imagem": "/imagem/MinasGerais/doce-de-leite-mineiro.jpg",
+        "dificuldade": "Médio"
+      }
+    ]
+  }

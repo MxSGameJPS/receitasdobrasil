@@ -49,7 +49,7 @@
     },
     {
       "estado": "Minas Gerais",
-      "json": "/receitas/minas-gerais.json"
+      "json": "/receitas/sudeste/minas-gerais.json"
     },
     {
       "estado": "Pará",
@@ -73,7 +73,7 @@
     },
     {
       "estado": "Rio de Janeiro",
-      "json": "/receitas/rio-de-janeiro.json"
+      "json": "/receitas/sudeste/rio-de-janeiro.json"
     },
     {
       "estado": "Rio Grande do Norte",

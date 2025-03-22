@@ -57,21 +57,30 @@ export default function PaginaReceita() {
   }, [estado, receita]);
 
   const gerarPDF = () => {
+    if (!dadosReceita) return; // Evita erro se dadosReceita ainda não carregou
     const doc = new jsPDF();
     doc.setFontSize(16);
-    doc.text(receita.nome, 10, 10);
+    doc.text(dadosReceita.nome, 10, 10); // Usa dadosReceita
     doc.setFontSize(12);
     doc.text("Descrição:", 10, 20);
-    doc.text(receita.descricao, 10, 30, { maxWidth: 180 });
+    doc.text(dadosReceita.descricao, 10, 30, { maxWidth: 180 });
     doc.text("Ingredientes:", 10, 50);
-    receita.ingredientes.forEach((ing, index) => {
+    dadosReceita.ingredientes.forEach((ing, index) => {
       doc.text(`- ${ing}`, 10, 60 + index * 10);
     });
-    doc.text("Modo de Preparo:", 10, 60 + receita.ingredientes.length * 10 + 10);
-    receita.modo_de_preparo.forEach((passo, index) => {
-      doc.text(`${index + 1}. ${passo}`, 10, 60 + receita.ingredientes.length * 10 + 20 + index * 10);
+    doc.text(
+      "Modo de Preparo:",
+      10,
+      60 + dadosReceita.ingredientes.length * 10 + 10
+    );
+    dadosReceita.modo_de_preparo.forEach((passo, index) => {
+      doc.text(
+        `${index + 1}. ${passo}`,
+        10,
+        60 + dadosReceita.ingredientes.length * 10 + 20 + index * 10
+      );
     });
-    doc.save(`${receita.nome}.pdf`);
+    doc.save(`${dadosReceita.nome}.pdf`);
   };
 
   if (!dadosReceita) return <p>Carregando receita...</p>;
@@ -104,7 +113,7 @@ export default function PaginaReceita() {
             <h3>Modo de Preparo</h3>
             <p>{dadosReceita.modo_de_preparo.join(" ")}</p>
           </div>
-          <button onClick={gerarPDF}>Baixar Receita em PDF</button>
+          <Botao onClick={gerarPDF}>Baixar Receita em PDF</Botao>
         </div>
       </div>
     </ContainerCard>
@@ -130,6 +139,20 @@ const ContainerCard = styled.section`
     height: 400px;
     align-self: center;
     border-radius: 16px;
+  }  
+`;
+
+const Botao = styled.button`
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: #ff9c00;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ac6803;
   }
 `;
 

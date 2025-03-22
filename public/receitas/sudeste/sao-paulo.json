@@ -1,0 +1,141 @@
+{
+    "nome": "São Paulo",
+    "sigla": "SP",
+    "historia": "A culinária de São Paulo é um mosaico de sabores, forjado pela diversidade de imigrantes e pela herança do interior. No litoral e na capital, pratos como o virado à paulista e o cuscuz refletem a influência portuguesa e tropeira, enquanto a pizza e o pastel carregam o DNA italiano. Japoneses trouxeram o temaki, e nordestinos popularizaram a tapioca. Do interior caipira vêm bolos e doces simples, como o de milho. É uma cozinha que une o rural ao cosmopolita, celebrando a mistura que define o estado mais populoso do Brasil.",
+    "receitas": [
+      {
+        "nome": "Virado à Paulista",
+        "tipo": "salgado",
+        "descricao": "Prato tradicional paulista, com feijão, bisteca e acompanhamentos tropeiros.",
+        "ingredientes": [
+          "500g de feijão carioca cozido",
+          "4 bistecas de porco",
+          "1 xícara de farinha de milho",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de óleo",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto",
+          "1 ovo frito por pessoa (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Tempere as bistecas com sal e pimenta e frite em 1 colher de óleo até dourarem; reserve.",
+          "Na mesma panela, refogue o alho e a cebola até ficarem transparentes.",
+          "Adicione o feijão cozido com um pouco do caldo e cozinhe por 10 minutos, amassando levemente.",
+          "Em outra frigideira, toste a farinha de milho com 1 colher de óleo até ficar crocante.",
+          "Sirva o feijão com a bisteca, farofa, arroz, couve refogada e, se quiser, um ovo frito por cima."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/SaoPaulo/virado-a-paulista.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Pizza Paulistana",
+        "tipo": "salgado",
+        "descricao": "Pizza tradicional de São Paulo, influência italiana com massa fina e recheio generoso.",
+        "ingredientes": [
+          "500g de farinha de trigo",
+          "1 colher de sopa de fermento biológico seco",
+          "1 colher de chá de sal",
+          "1 colher de sopa de azeite",
+          "1 xícara de água morna",
+          "200g de molho de tomate",
+          "300g de muçarela ralada",
+          "Orégano a gosto",
+          "Ingredientes extras (calabresa, frango, etc., a gosto)"
+        ],
+        "modo_de_preparo": [
+          "Misture o fermento com a água morna e deixe descansar por 5 minutos.",
+          "Em uma tigela, combine a farinha, o sal, o azeite e o fermento ativado, sovando até formar uma massa lisa (cerca de 10 minutos).",
+          "Cubra e deixe crescer por 1 hora.",
+          "Preaqueça o forno a 220°C, abra a massa em uma forma, espalhe o molho, a muçarela e os recheios escolhidos.",
+          "Polvilhe orégano e asse por 20 minutos, até a borda dourar.",
+          "Sirva quente."
+        ],
+        "rendimento": "2 pizzas médias, serve 4-6 pessoas",
+        "tempo_de_preparo": "1 hora e 30 minutos",
+        "imagem": "/imagem/SaoPaulo/pizza-paulistana.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Pastel de Feira",
+        "tipo": "salgado",
+        "descricao": "Pastel crocante, clássico das feiras paulistas, com recheio de carne.",
+        "ingredientes": [
+          "2 xícaras de farinha de trigo",
+          "1/2 xícara de água morna",
+          "1 colher de sopa de óleo",
+          "1 colher de chá de sal",
+          "300g de carne moída",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "Sal e pimenta a gosto",
+          "Óleo para fritar"
+        ],
+        "modo_de_preparo": [
+          "Para a massa, misture a farinha, o sal, o óleo e a água, sovando até ficar lisa; deixe descansar por 30 minutos.",
+          "Para o recheio, refogue o alho e a cebola, adicione a carne moída, tempere com sal e pimenta e cozinhe até secar; deixe esfriar.",
+          "Abra a massa bem fina, corte em retângulos, recheie com a carne e feche apertando as bordas com um garfo.",
+          "Frite em óleo quente até dourar (cerca de 3 minutos por lado).",
+          "Escorra em papel-toalha e sirva quente."
+        ],
+        "rendimento": "10 pastéis, serve 4-6 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/SaoPaulo/pastel-de-feira.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Cuscuz Paulista",
+        "tipo": "salgado",
+        "descricao": "Versão paulista do cuscuz, com milho, sardinha e temperos, servido em forma.",
+        "ingredientes": [
+          "2 xícaras de farinha de milho",
+          "1 lata de sardinha em óleo",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "1 tomate picado",
+          "1/2 xícara de ervilha",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Salsinha picada a gosto"
+        ],
+        "modo_de_preparo": [
+          "Aqueça o azeite e refogue o alho, a cebola e o tomate até amolecerem.",
+          "Adicione a sardinha (com o óleo), a ervilha, sal e pimenta, cozinhando por 5 minutos.",
+          "Misture a farinha de milho com 1 xícara de água até formar uma massa úmida.",
+          "Em uma forma untada, alterne camadas de massa e recheio, terminando com massa.",
+          "Cozinhe em banho-maria por 30 minutos, deixe esfriar e desenforme.",
+          "Sirva frio ou quente, com salsinha por cima."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/SaoPaulo/cuscuz-paulista.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Milho Caipira",
+        "tipo": "doce",
+        "descricao": "Bolo cremoso de milho verde, típico do interior paulista.",
+        "ingredientes": [
+          "4 espigas de milho verde (ou 2 xícaras de milho debulhado)",
+          "1 xícara de açúcar",
+          "200ml de leite de coco",
+          "2 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "No liquidificador, bata o milho, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente com uma colher.",
+          "Despeje a massa na forma e asse por 40 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/SaoPaulo/bolo-de-milho-caipira.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

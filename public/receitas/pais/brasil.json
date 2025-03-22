@@ -61,7 +61,7 @@
     },
     {
       "estado": "Paraná",
-      "json": "/receitas/parana.json"
+      "json": "/receitas/sul/parana.json"
     },
     {
       "estado": "Pernambuco",
@@ -97,7 +97,7 @@
     },
     {
       "estado": "São Paulo",
-      "json": "/receitas/sao-paulo.json"
+      "json": "/receitas/sudeste/sao-paulo.json"
     },
     {
       "estado": "Sergipe",

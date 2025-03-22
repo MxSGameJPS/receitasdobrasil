@@ -1,0 +1,127 @@
+{
+    "nome": "Pará",
+    "sigla": "PA",
+    "historia": "A culinária do Pará é um dos maiores tesouros da Amazônia, profundamente enraizada nas tradições indígenas e enriquecida por influências africanas e portuguesas. Ingredientes como o tucupi, extraído da mandioca, e o jambu, com seu efeito anestésico único, são estrelas em pratos como o tacacá e o pato no tucupi. A fartura dos rios traz peixes como o filhote, enquanto a floresta oferece frutas como o açaí e o bacuri, transformadas em sobremesas inesquecíveis. É uma cozinha que pulsa com a força da natureza e da cultura local.",
+    "receitas": [
+      {
+        "nome": "Pato no Tucupi",
+        "tipo": "salgado",
+        "descricao": "Prato icônico do Pará, com pato cozido em tucupi e jambu, cheio de sabor amazônico.",
+        "ingredientes": [
+          "1 pato inteiro (cerca de 2kg), cortado em pedaços",
+          "1 litro de tucupi",
+          "200g de jambu fresco",
+          "4 dentes de alho amassados",
+          "2 cebolas picadas",
+          "Sal e pimenta a gosto",
+          "2 pimentas de cheiro"
+        ],
+        "modo_de_preparo": [
+          "Tempere o pato com alho, sal e pimenta e deixe marinar por 1 hora.",
+          "Em uma panela grande, refogue a cebola até dourar, adicione o pato e cozinhe até ficar ligeiramente dourado.",
+          "Despeje o tucupi e as pimentas de cheiro, tampe e cozinhe em fogo baixo por 40 minutos, ou até o pato estar macio.",
+          "Adicione o jambu e cozinhe por mais 5 minutos, até as folhas murcharem.",
+          "Sirva quente com arroz branco e farinha d’água."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora e 30 minutos",
+        "imagem": "/imagem/Para/pato-no-tucupi.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Tacacá",
+        "tipo": "salgado",
+        "descricao": "Sopa quente e tradicional, servida em cuias, com tucupi, jambu e camarão.",
+        "ingredientes": [
+          "1 litro de tucupi",
+          "200g de jambu fresco",
+          "100g de camarão seco",
+          "1 xícara de goma de mandioca",
+          "2 pimentas de cheiro",
+          "Sal a gosto"
+        ],
+        "modo_de_preparo": [
+          "Ferva o tucupi com as pimentas e sal em uma panela por 15 minutos.",
+          "Adicione o camarão seco e cozinhe por mais 5 minutos.",
+          "Junte o jambu e cozinhe até as folhas murcharem (cerca de 3 minutos).",
+          "Dissolva a goma em um pouco de água fria, adicione ao caldo e mexa até engrossar ligeiramente.",
+          "Sirva quente em cuias, com pimenta extra se desejar."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Para/tacaca.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Maniçoba",
+        "tipo": "salgado",
+        "descricao": "Prato festivo feito com folhas de maniva cozidas por dias, semelhante à feijoada.",
+        "ingredientes": [
+          "2kg de maniva (folhas de mandioca trituradas)",
+          "500g de carne de porco salgada",
+          "300g de linguiça defumada",
+          "200g de bacon",
+          "2 cebolas picadas",
+          "4 dentes de alho amassados",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Cozinhe a maniva em água por 3 dias, trocando a água diariamente, até perder o gosto amargo.",
+          "Dessalgue a carne de porco em água por 12 horas, trocando a água algumas vezes.",
+          "Em uma panela grande, refogue o alho, a cebola, o bacon e a linguiça até dourarem.",
+          "Adicione a carne de porco e a maniva cozida, cubra com água e cozinhe por 4 horas em fogo baixo, mexendo ocasionalmente.",
+          "Ajuste o sal e a pimenta e sirva com arroz branco e farinha."
+        ],
+        "rendimento": "8 porções, serve 8 pessoas",
+        "tempo_de_preparo": "3 dias (preparo da maniva) + 5 horas",
+        "imagem": "/imagem/Para/manicoba.webp",
+        "dificuldade": "Difícil"
+      },
+      {
+        "nome": "Caldeirada de Filhote",
+        "tipo": "salgado",
+        "descricao": "Caldeirada leve e saborosa com o filhote, um peixe típico dos rios paraenses.",
+        "ingredientes": [
+          "1kg de filhote em postas",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em rodelas",
+          "200ml de leite de coco",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o filhote com sal e pimenta e reserve por 20 minutos.",
+          "Em uma panela, coloque os tomates, a cebola, o pimentão e as batatas, cobrindo com água. Cozinhe por 10 minutos.",
+          "Adicione o filhote e o leite de coco, tampe e cozinhe por 20 minutos, ou até o peixe estar macio.",
+          "Finalize com cheiro-verde e sirva com arroz branco."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Para/caldeirada-filhote.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Doce de Bacuri",
+        "tipo": "doce",
+        "descricao": "Sobremesa cremosa feita com a polpa do bacuri, fruta exótica do Pará.",
+        "ingredientes": [
+          "500g de polpa de bacuri",
+          "1 lata de leite condensado (395g)",
+          "200ml de creme de leite",
+          "2 colheres de sopa de açúcar"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, misture a polpa de bacuri, o leite condensado e o açúcar.",
+          "Leve ao fogo médio, mexendo sempre, até engrossar e desgrudar do fundo (cerca de 15 minutos).",
+          "Desligue o fogo, adicione o creme de leite e misture bem até ficar homogêneo.",
+          "Despeje em um refratário ou potinhos e leve à geladeira por 2 horas antes de servir."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "30 minutos + 2 horas de geladeira",
+        "imagem": "/imagem/Para/doce-bacuri.webp",
+        "dificuldade": "Médio"
+      }
+    ]
+  }

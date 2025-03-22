@@ -1,0 +1,132 @@
+{
+    "nome": "Maranhão",
+    "sigla": "MA",
+    "historia": "A culinária do Maranhão é um caldeirão cultural que reflete suas raízes indígenas, africanas e portuguesas, temperado pela abundância do litoral e do interior. Frutos do mar como camarão e caranguejo dividem espaço com o arroz de cuxá, prato símbolo feito com vinagreira e influências afro-indígenas. A mandioca é base de farinhas e bolos, enquanto o juçara, um açaí local, refresca e nutre. Essa cozinha é marcada por sabores intensos e pela simplicidade das tradições de São Luís aos Lençóis Maranhenses, unindo o sertão e o mar em cada prato.",
+    "receitas": [
+      {
+        "nome": "Arroz de Cuxá",
+        "tipo": "salgado",
+        "descricao": "Prato emblemático do Maranhão, com arroz misturado ao molho de vinagreira e camarão seco.",
+        "ingredientes": [
+          "2 xícaras de arroz",
+          "200g de folhas de vinagreira (cuxá)",
+          "100g de camarão seco",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "200ml de leite de coco",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "1 colher de sopa de gergelim torrado (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Cozinhe as folhas de vinagreira em água fervente por 5 minutos, escorra e pique finamente.",
+          "Em uma panela, refogue o alho e a cebola no azeite até dourarem.",
+          "Adicione o camarão seco e refogue por 3 minutos, depois junte a vinagreira e o leite de coco, cozinhando por 10 minutos.",
+          "Cozinhe o arroz separadamente com sal e água até ficar soltinho.",
+          "Misture o arroz ao molho de cuxá, ajuste o sal e a pimenta, e finalize com gergelim torrado se desejar. Sirva quente."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Maranhao/arroz-de-cuxa.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Torta de Camarão",
+        "tipo": "salgado",
+        "descricao": "Torta cremosa e tradicional, feita com camarão e massa leve, típica de festas maranhenses.",
+        "ingredientes": [
+          "500g de camarão limpo",
+          "2 xícaras de farinha de trigo",
+          "200ml de leite",
+          "3 ovos",
+          "1 cebola picada",
+          "2 tomates picados",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Refogue a cebola e os tomates no azeite, adicione o camarão, sal e pimenta, e cozinhe por 5 minutos. Reserve.",
+          "No liquidificador, bata o leite, os ovos, a farinha e o fermento até formar uma massa homogênea.",
+          "Em uma forma untada, coloque metade da massa, espalhe o recheio de camarão e cubra com o restante da massa.",
+          "Asse a 180°C por 40 minutos, ou até dourar.",
+          "Finalize com coentro e sirva quente ou fria."
+        ],
+        "rendimento": "8 porções, serve 8 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Maranhao/torta-de-camarao.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Suco de Juçara",
+        "tipo": "bebida",
+        "descricao": "Bebida refrescante feita com juçara, semelhante ao açaí, típica do Maranhão.",
+        "ingredientes": [
+          "500g de polpa de juçara (ou açaí)",
+          "500ml de água gelada",
+          "2 colheres de sopa de açúcar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Coloque a polpa de juçara, a água e o açúcar no liquidificador.",
+          "Bata por 1-2 minutos até ficar homogêneo.",
+          "Sirva gelado, acompanhado de farinha de mandioca ou tapioca, se desejar."
+        ],
+        "rendimento": "3 copos, serve 3 pessoas",
+        "tempo_de_preparo": "10 minutos",
+        "imagem": "/imagem/Maranhao/suco-jucara.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Caldeirada de Peixe",
+        "tipo": "salgado",
+        "descricao": "Ensopado robusto de peixe com legumes, comum nas regiões ribeirinhas do Maranhão.",
+        "ingredientes": [
+          "1kg de peixe em postas (ex.: tucunaré ou pescada)",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em rodelas",
+          "200ml de leite de coco",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 20 minutos.",
+          "Em uma panela, refogue a cebola, o tomate e o pimentão até amolecerem.",
+          "Adicione as batatas e cubra com água, cozinhando por 10 minutos.",
+          "Junte o peixe e o leite de coco, tampe e cozinhe por 15 minutos, até o peixe estar macio.",
+          "Finalize com coentro e sirva com arroz ou pirão."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/Maranhao/caldeirada-peixe.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Macaxeira",
+        "tipo": "doce",
+        "descricao": "Bolo fofinho feito com macaxeira (mandioca), um clássico do interior maranhense.",
+        "ingredientes": [
+          "1kg de macaxeira ralada",
+          "2 xícaras de açúcar",
+          "200ml de leite de coco",
+          "3 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "Em uma tigela, misture a macaxeira ralada, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente.",
+          "Despeje a massa na forma e asse por 50 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "10 fatias, serve 8-10 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Maranhao/bolo-macaxeira.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

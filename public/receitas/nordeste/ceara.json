@@ -1,0 +1,133 @@
+{
+    "nome": "Ceará",
+    "sigla": "CE",
+    "historia": "A culinária do Ceará é um espelho da vida nordestina, dividida entre o litoral farto e o sertão resiliente. De origem indígena, com toques portugueses e africanos, ela valoriza frutos do mar como a lagosta e o caranguejo, preparados com simplicidade e sabor. No interior, mandioca, milho e carne de sol contam histórias de adaptação à seca, enquanto o cuscuz e o baião de dois são heranças que unem a mesa cearense. É uma cozinha de resistência e criatividade, que transforma ingredientes básicos em pratos cheios de identidade.",
+    "receitas": [
+      {
+        "nome": "Peixada Cearense",
+        "tipo": "salgado",
+        "descricao": "Ensopado leve e saboroso de peixe, típico do litoral cearense, servido com pirão.",
+        "ingredientes": [
+          "1kg de peixe em postas (ex.: cioba ou vermelho)",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em rodelas",
+          "Suco de 1 limão",
+          "200ml de leite de coco",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto",
+          "1 xícara de farinha de mandioca (para o pirão)"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 20 minutos.",
+          "Em uma panela, refogue a cebola, o tomate e o pimentão até amolecerem.",
+          "Adicione as batatas e cubra com água, cozinhando por 10 minutos.",
+          "Junte o peixe e o leite de coco, tampe e cozinhe por 15 minutos, até o peixe estar macio.",
+          "Retire um pouco do caldo, misture com a farinha de mandioca pra fazer o pirão e finalize com coentro. Sirva com arroz."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/Ceara/peixada-cearense.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Baião de Dois",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo clássico, com arroz, feijão, queijo e carne, cheio de sabor.",
+        "ingredientes": [
+          "2 xícaras de feijão-verde cozido",
+          "1 xícara de arroz",
+          "200g de queijo coalho em cubos",
+          "200g de carne de sol dessalgada e desfiada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois cozinhe e desfie.",
+          "Em uma panela, refogue o alho e a cebola na manteiga até dourarem.",
+          "Adicione a carne desfiada e o feijão cozido, misturando bem.",
+          "Junte o arroz, cubra com água (cerca de 2 xícaras) e cozinhe até secar, ajustando o sal.",
+          "Finalize com o queijo coalho e cheiro-verde, mexendo até derreter um pouco. Sirva quente."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "50 minutos (após dessalgar)",
+        "imagem": "/imagem/Ceara/baiao-de-dois.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Tapioca com Coco e Queijo",
+        "tipo": "salgado",
+        "descricao": "Tapioca simples e tradicional, recheada com coco e queijo coalho, perfeita para o café da manhã.",
+        "ingredientes": [
+          "2 xícaras de goma de tapioca",
+          "100g de coco ralado fresco",
+          "100g de queijo coalho ralado",
+          "Sal a gosto",
+          "Manteiga para untar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Peneire a goma de tapioca em uma frigideira antiaderente aquecida, espalhando uniformemente.",
+          "Cozinhe em fogo médio por 2 minutos, até firmar, e vire com uma espátula.",
+          "Adicione o coco ralado e o queijo coalho no centro, dobre ao meio e cozinhe por mais 1 minuto.",
+          "Sirva quente, com manteiga por cima se desejar."
+        ],
+        "rendimento": "4 tapiocas, serve 2-4 pessoas",
+        "tempo_de_preparo": "20 minutos",
+        "imagem": "/imagem/Ceara/tapioca-coco-queijo.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Caranguejo ao Molho",
+        "tipo": "salgado",
+        "descricao": "Caranguejo cozido em molho rico de coco e temperos, típico das praias cearenses.",
+        "ingredientes": [
+          "1kg de caranguejo limpo",
+          "200ml de leite de coco",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Cozinhe os caranguejos em água com sal por 10 minutos, escorra e reserve.",
+          "Em uma panela, refogue o alho, a cebola e o pimentão no azeite até amolecerem.",
+          "Adicione os tomates e cozinhe por 5 minutos, mexendo bem.",
+          "Junte o leite de coco, os caranguejos, sal e pimenta, e cozinhe por 15 minutos em fogo baixo.",
+          "Finalize com coentro e sirva com farofa ou arroz."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Ceara/caranguejo-molho.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Cartola Cearense",
+        "tipo": "doce",
+        "descricao": "Sobremesa simples de banana frita com queijo e açúcar, popular no interior.",
+        "ingredientes": [
+          "4 bananas maduras (prata ou da terra)",
+          "100g de queijo coalho em fatias",
+          "2 colheres de sopa de manteiga",
+          "2 colheres de sopa de açúcar",
+          "Canela em pó a gosto"
+        ],
+        "modo_de_preparo": [
+          "Corte as bananas ao meio no sentido do comprimento.",
+          "Em uma frigideira, derreta a manteiga e frite as bananas até dourarem (cerca de 3 minutos de cada lado).",
+          "Coloque as fatias de queijo por cima das bananas ainda na frigideira e deixe derreter por 1 minuto.",
+          "Polvilhe açúcar e canela, retire do fogo e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "20 minutos",
+        "imagem": "/imagem/Ceara/cartola-cearense.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

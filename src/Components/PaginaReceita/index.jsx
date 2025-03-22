@@ -1,44 +1,88 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import jsPDF from "jspdf";
 import styled from "styled-components";
 
 export default function PaginaReceita() {
   const { estado, receita } = useParams();
   const [dadosReceita, setDadosReceita] = useState(null);
+  const [proximaReceita, setProximaReceita] = useState(null);
+
+  const normalizarString = (str) =>
+    str
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "") // Remove acentos
+      .replace(/[\s-]+/g, ""); // Remove espaços e hífens
 
   useEffect(() => {
     const carregarReceita = async () => {
       try {
         const responseBrasil = await fetch("/receitas/pais/brasil.json");
-        if (!responseBrasil.ok) throw new Error(`Erro HTTP: ${responseBrasil.status}`);
+        if (!responseBrasil.ok)
+          throw new Error(`Erro HTTP: ${responseBrasil.status}`);
         const brasilData = await responseBrasil.json();
-  
+
+        const estadoNormalizado = normalizarString(estado);
         const estadoData = brasilData.find(
-          (item) => item.estado.toLowerCase() === estado.toLowerCase()
+          (item) => normalizarString(item.estado) === estadoNormalizado
         );
-        if (!estadoData) throw new Error(`Estado ${estado} não encontrado`);
-  
+        if (!estadoData) throw new Error("Estado não encontrado");
+
         console.log(`Carregando ${estadoData.json}...`);
+
         const responseEstado = await fetch(estadoData.json);
-        if (!responseEstado.ok) throw new Error(`Erro HTTP: ${responseEstado.status}`);
+        if (!responseEstado.ok)
+          throw new Error(`Erro HTTP: ${responseEstado.status}`);
         const data = await responseEstado.json();
-  
-        const receitaEncontrada = data.receitas.find(
+
+        const receitaAtualIndex = data.receitas.findIndex(
           (r) => r.nome.replace(/\s+/g, "-").toLowerCase() === receita
         );
-        if (!receitaEncontrada) throw new Error(`Receita ${receita} não encontrada`);
-  
+        if (receitaAtualIndex === -1)
+          throw new Error(`Receita ${receita} não encontrada`);
+
+        const receitaEncontrada = data.receitas[receitaAtualIndex];
         setDadosReceita(receitaEncontrada);
+
+        // Define a próxima receita (circular: volta pro início se for a última)
+        const proximaIndex = (receitaAtualIndex + 1) % data.receitas.length;
+        const proxima = data.receitas[proximaIndex];
+        setProximaReceita(proxima.nome.replace(/\s+/g, "-").toLowerCase());
       } catch (error) {
         console.error("Erro ao carregar receita:", error);
       }
     };
     carregarReceita();
   }, [estado, receita]);
-  if (!dadosReceita) return <p>Carregando receita...</p>;
 
+  const gerarPDF = () => {
+    const doc = new jsPDF();
+    doc.setFontSize(16);
+    doc.text(receita.nome, 10, 10);
+    doc.setFontSize(12);
+    doc.text("Descrição:", 10, 20);
+    doc.text(receita.descricao, 10, 30, { maxWidth: 180 });
+    doc.text("Ingredientes:", 10, 50);
+    receita.ingredientes.forEach((ing, index) => {
+      doc.text(`- ${ing}`, 10, 60 + index * 10);
+    });
+    doc.text("Modo de Preparo:", 10, 60 + receita.ingredientes.length * 10 + 10);
+    receita.modo_de_preparo.forEach((passo, index) => {
+      doc.text(`${index + 1}. ${passo}`, 10, 60 + receita.ingredientes.length * 10 + 20 + index * 10);
+    });
+    doc.save(`${receita.nome}.pdf`);
+  };
+
+  if (!dadosReceita) return <p>Carregando receita...</p>;
   return (
     <ContainerCard>
+      <ContainerLink>
+        <StateLinkReceita to={`/${estado}`}>Voltar</StateLinkReceita>
+        <StateLinkReceita to={`/${estado}/${proximaReceita}`}>
+          Próxima Receita
+        </StateLinkReceita>
+      </ContainerLink>
       <div>
         <img src={dadosReceita.imagem} alt={dadosReceita.nome} />
         <div>
@@ -60,6 +104,7 @@ export default function PaginaReceita() {
             <h3>Modo de Preparo</h3>
             <p>{dadosReceita.modo_de_preparo.join(" ")}</p>
           </div>
+          <button onClick={gerarPDF}>Baixar Receita em PDF</button>
         </div>
       </div>
     </ContainerCard>
@@ -85,5 +130,23 @@ const ContainerCard = styled.section`
     height: 400px;
     align-self: center;
     border-radius: 16px;
+  }
+`;
+
+const ContainerLink = styled.section`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+`;
+
+const StateLinkReceita = styled(Link)`
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  background-color: #ff9c00;
+  color: #ffffff;
+
+  &:hover {
+    text-decoration: underline;
   }
 `;

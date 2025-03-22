@@ -1,0 +1,119 @@
+{
+    "nome": "Tocantins",
+    "sigla": "TO",
+    "historia": "A culinária de Tocantins é um encontro entre o Cerrado e a Amazônia, moldada pela vida ribeirinha e pela cultura sertaneja trazida por migrantes do Nordeste e Centro-Oeste. Peixes como o pintado e o tucunaré, pescados nos rios Araguaia e Tocantins, são estrelas em pratos simples e robustos. A mandioca aparece em farinhas e bolos, enquanto frutas como o pequi e o buriti dão sabor e identidade. É uma cozinha que celebra a simplicidade e os ingredientes abundantes da região.",
+    "receitas": [
+      {
+        "nome": "Pintado na Brasa",
+        "tipo": "salgado",
+        "descricao": "Peixe típico do Tocantins, grelhado na brasa com temperos básicos que realçam seu sabor.",
+        "ingredientes": [
+          "1 pintado inteiro (cerca de 1,5kg), limpo",
+          "Suco de 2 limões",
+          "3 dentes de alho amassados",
+          "Sal grosso a gosto",
+          "Pimenta-do-reino a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o pintado com o suco de limão, alho, sal grosso e pimenta, esfregando bem por dentro e por fora. Deixe marinar por 30 minutos.",
+          "Acenda a churrasqueira e espere formar brasas.",
+          "Coloque o peixe em uma grelha dupla e asse por cerca de 20 minutos de cada lado, ou até a carne estar cozida e a pele crocante.",
+          "Sirva com farofa e vinagrete."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Tocantins/pintado-brasa.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Caldeirada de Tucunaré",
+        "tipo": "salgado",
+        "descricao": "Caldeirada leve e saborosa com tucunaré, um clássico dos rios tocantinenses.",
+        "ingredientes": [
+          "1kg de tucunaré em postas",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em rodelas",
+          "200ml de leite de coco",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o tucunaré com sal e pimenta e reserve por 20 minutos.",
+          "Em uma panela, coloque os tomates, a cebola, o pimentão e as batatas, cobrindo com água. Cozinhe por 10 minutos.",
+          "Adicione o tucunaré e o leite de coco, tampe e cozinhe por 20 minutos, ou até o peixe estar macio.",
+          "Finalize com cheiro-verde e sirva com arroz branco."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Tocantins/caldeirada-tucunare.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Pequi",
+        "tipo": "doce",
+        "descricao": "Bolo rústico feito com o fruto do pequi, típico do Cerrado tocantinense.",
+        "ingredientes": [
+          "2 xícaras de polpa de pequi (sem caroço)",
+          "2 xícaras de farinha de trigo",
+          "1 xícara de açúcar",
+          "3 ovos",
+          "1/2 xícara de óleo",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com óleo e farinha.",
+          "No liquidificador, bata a polpa de pequi, os ovos, o açúcar e o óleo até ficar homogêneo.",
+          "Transfira para uma tigela, adicione a farinha e o fermento, misturando delicadamente.",
+          "Despeje na forma e asse por 40 minutos, ou até um palito sair limpo.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Tocantins/bolo-pequi.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Suco de Buriti",
+        "tipo": "bebida",
+        "descricao": "Bebida refrescante feita com o buriti, fruta rica em vitamina A, comum no Tocantins.",
+        "ingredientes": [
+          "500g de polpa de buriti",
+          "500ml de água gelada",
+          "3 colheres de sopa de açúcar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Coloque a polpa de buriti, a água e o açúcar no liquidificador.",
+          "Bata por 1-2 minutos até ficar homogêneo.",
+          "Sirva gelado em copos."
+        ],
+        "rendimento": "3 copos, serve 3 pessoas",
+        "tempo_de_preparo": "10 minutos",
+        "imagem": "/imagem/Tocantins/suco-buriti.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Farofa de Mandioca com Pequi",
+        "tipo": "salgado",
+        "descricao": "Acompanhamento crocante com o sabor intenso do pequi, perfeito para peixes ou carnes.",
+        "ingredientes": [
+          "1 xícara de polpa de pequi (sem caroço)",
+          "2 xícaras de farinha de mandioca",
+          "1 cebola picada",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira, derreta a manteiga e refogue a cebola até dourar.",
+          "Adicione a polpa de pequi e cozinhe por 5 minutos, mexendo bem.",
+          "Junte a farinha de mandioca aos poucos, mexendo até ficar crocante (cerca de 5 minutos).",
+          "Tempere com sal e pimenta e sirva como acompanhamento."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "20 minutos",
+        "imagem": "/imagem/Tocantins/farofa-pequi.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

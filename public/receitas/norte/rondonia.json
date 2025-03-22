@@ -1,0 +1,122 @@
+{
+    "nome": "Rondônia",
+    "sigla": "RO",
+    "historia": "A culinária de Rondônia é um reflexo da Amazônia Ocidental, combinando a herança indígena com influências de migrantes do Centro-Oeste, Nordeste e Sul do Brasil. Peixes como o tambaqui e o dourado, abundantes nos rios da região, são protagonistas, muitas vezes assados ou fritos. A mandioca aparece em diversas formas, desde farinhas até bolos, enquanto frutas como o cupuaçu e o buriti adoçam o paladar. É uma cozinha simples, mas marcada pela fartura da floresta e pela adaptação dos costumes dos colonizadores.",
+    "receitas": [
+      {
+        "nome": "Tambaqui Frito",
+        "tipo": "salgado",
+        "descricao": "Peixe típico da região, frito até ficar crocante, servido como prato principal ou petisco.",
+        "ingredientes": [
+          "1 tambaqui (cerca de 1,5kg), limpo e cortado em postas",
+          "Suco de 2 limões",
+          "3 dentes de alho amassados",
+          "Sal e pimenta a gosto",
+          "Farinha de milho para empanar",
+          "Óleo para fritar"
+        ],
+        "modo_de_preparo": [
+          "Tempere as postas de tambaqui com o suco de limão, alho, sal e pimenta. Deixe marinar por 30 minutos.",
+          "Passe cada posta na farinha de milho, cobrindo bem os dois lados.",
+          "Aqueça o óleo em uma frigideira e frite as postas em fogo médio por 5-7 minutos de cada lado, até dourarem.",
+          "Escorra em papel-toalha e sirva com arroz e vinagrete."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/Rondonia/tambaqui-frito.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Caldo de Dourado",
+        "tipo": "salgado",
+        "descricao": "Caldo reconfortante feito com o dourado, peixe comum nos rios de Rondônia.",
+        "ingredientes": [
+          "1kg de dourado em postas",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em cubos",
+          "1 litro de água",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o dourado com sal e pimenta e reserve por 20 minutos.",
+          "Em uma panela, refogue a cebola, o tomate e o pimentão até amolecerem.",
+          "Adicione a água e as batatas, cozinhando por 10 minutos em fogo médio.",
+          "Coloque as postas de dourado e cozinhe por mais 15 minutos, até o peixe estar macio.",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Rondonia/caldo-dourado.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Mandioca com Coco",
+        "tipo": "doce",
+        "descricao": "Bolo fofinho e tradicional, feito com mandioca e coco, muito apreciado na região.",
+        "ingredientes": [
+          "1kg de mandioca ralada",
+          "2 xícaras de açúcar",
+          "200ml de leite de coco",
+          "100g de coco ralado",
+          "3 ovos",
+          "2 colheres de sopa de manteiga"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "Em uma tigela, misture a mandioca ralada, o açúcar, o leite de coco, o coco ralado, os ovos e a manteiga até ficar homogêneo.",
+          "Despeje a massa na forma e asse por 50 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "10 fatias, serve 8-10 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Rondonia/bolo-mandioca-coco.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Suco de Cupuaçu",
+        "tipo": "bebida",
+        "descricao": "Bebida refrescante e cremosa, feita com a polpa do cupuaçu, fruta típica da Amazônia.",
+        "ingredientes": [
+          "500g de polpa de cupuaçu congelada",
+          "500ml de água gelada",
+          "3 colheres de sopa de açúcar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Coloque a polpa de cupuaçu, a água e o açúcar no liquidificador.",
+          "Bata por 1-2 minutos até ficar homogêneo e cremoso.",
+          "Sirva gelado em copos."
+        ],
+        "rendimento": "3 copos, serve 3 pessoas",
+        "tempo_de_preparo": "10 minutos",
+        "imagem": "/imagem/Rondonia/suco-cupuacu.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Farofa de Banana com Tambaqui",
+        "tipo": "salgado",
+        "descricao": "Acompanhamento saboroso com tambaqui desfiado e banana, comum nas mesas rondonienses.",
+        "ingredientes": [
+          "300g de tambaqui cozido e desfiado",
+          "2 bananas-da-terra maduras, cortadas em rodelas",
+          "1 xícara de farinha de mandioca",
+          "1 cebola picada",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Em uma frigideira, derreta a manteiga e refogue a cebola até dourar.",
+          "Adicione as rodelas de banana e frite por 3 minutos, até começarem a amolecer.",
+          "Junte o tambaqui desfiado, tempere com sal e pimenta e misture bem.",
+          "Acrescente a farinha de mandioca aos poucos, mexendo até ficar crocante (cerca de 5 minutos).",
+          "Sirva como acompanhamento de peixes ou carnes."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "25 minutos",
+        "imagem": "/imagem/Rondonia/farofa-tambaqui.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

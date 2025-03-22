@@ -1,0 +1,129 @@
+{
+    "nome": "Paraíba",
+    "sigla": "PB",
+    "historia": "A culinária da Paraíba é um retrato da força do sertão e da fartura do litoral nordestino. Influenciada por indígenas, africanos e portugueses, ela combina a rusticidade da carne de sol e do milho com a delicadeza dos frutos do mar, como o camarão e o caranguejo. A mandioca é base de pratos e acompanhamentos, enquanto o feijão-de-corda e o queijo coalho trazem o sabor do interior. É uma cozinha simples e generosa, que une a resistência do sertanejo à alegria das festas populares, transformando ingredientes básicos em sabores marcantes.",
+    "receitas": [
+      {
+        "nome": "Rubacão Paraibano",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo farto, com feijão, arroz, carne de sol e macaxeira, típico da Paraíba.",
+        "ingredientes": [
+          "2 xícaras de feijão-de-corda cozido",
+          "1 xícara de arroz",
+          "300g de carne de sol dessalgada e desfiada",
+          "200g de macaxeira cozida em cubos",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois cozinhe e desfie.",
+          "Em uma panela, refogue o alho e a cebola na manteiga até dourarem.",
+          "Adicione a carne desfiada e o feijão cozido, misturando bem.",
+          "Junte o arroz e a macaxeira, cubra com água (cerca de 2 xícaras) e cozinhe até o arroz secar, ajustando o sal.",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "50 minutos (após dessalgar)",
+        "imagem": "/imagem/Paraiba/rubacao-paraibano.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Camarão ao Coco",
+        "tipo": "salgado",
+        "descricao": "Prato leve e saboroso do litoral paraibano, com camarão refogado em leite de coco.",
+        "ingredientes": [
+          "500g de camarão limpo",
+          "200ml de leite de coco",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Refogue o alho, a cebola e o pimentão no azeite até amolecerem.",
+          "Adicione os tomates e cozinhe por 5 minutos, mexendo bem.",
+          "Junte o camarão, o leite de coco, o sal e a pimenta, e cozinhe por 10 minutos em fogo baixo.",
+          "Finalize com coentro e sirva com arroz branco ou purê de macaxeira."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Paraiba/camarao-ao-coco.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Bolo de Milho",
+        "tipo": "doce",
+        "descricao": "Bolo cremoso e simples feito com milho verde, típico das festas juninas paraibanas.",
+        "ingredientes": [
+          "4 espigas de milho verde (ou 2 xícaras de milho debulhado)",
+          "1 xícara de açúcar",
+          "200ml de leite de coco",
+          "2 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "No liquidificador, bata o milho, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente com uma colher.",
+          "Despeje a massa na forma e asse por 40 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Paraiba/bolo-de-milho.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Carne de Sol com Queijo",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo clássico, com carne de sol grelhada coberta por queijo derretido.",
+        "ingredientes": [
+          "500g de carne de sol dessalgada",
+          "200g de queijo coalho em fatias",
+          "1 cebola picada",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois corte em bifes.",
+          "Em uma frigideira, derreta a manteiga e refogue a cebola até dourar.",
+          "Grelhe os bifes de carne na mesma frigideira por 5 minutos de cada lado.",
+          "Coloque as fatias de queijo coalho por cima da carne e tampe a frigideira por 2 minutos, até o queijo derreter.",
+          "Sirva quente com farofa e feijão-de-corda."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos (após dessalgar)",
+        "imagem": "/imagem/Paraiba/carne-de-sol-com-queijo.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Cuscuz Nordestino",
+        "tipo": "salgado",
+        "descricao": "Cuscuz de milho cozido no vapor, acompanhamento tradicional da Paraíba.",
+        "ingredientes": [
+          "2 xícaras de flocos de milho",
+          "1 xícara de água",
+          "1 colher de chá de sal",
+          "Manteiga para untar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Em uma tigela, misture os flocos de milho com o sal e a água aos poucos, até ficar úmido e soltinho.",
+          "Deixe descansar por 10 minutos.",
+          "Coloque a mistura em uma cuscuzeira untada com manteiga, se desejar.",
+          "Cozinhe no vapor por 15 minutos, até firmar.",
+          "Desenforme e sirva quente com carne de sol, queijo ou café."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Paraiba/cuscuz-nordestino.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

@@ -1,0 +1,124 @@
+{
+    "nome": "Roraima",
+    "sigla": "RR",
+    "historia": "A culinária de Roraima é um mosaico da Amazônia setentrional, onde as tradições indígenas se misturam às influências dos migrantes nordestinos e à proximidade com a Venezuela e a Guiana. Peixes como o tucunaré e o pacu, pescados nos rios locais, são a base de pratos simples e saborosos. A mandioca é onipresente, seja como farinha ou em caldos, enquanto frutas como o açaí e a taperebá adicionam um toque doce e refrescante. É uma cozinha que reflete a vida ribeirinha e a diversidade cultural da região.",
+    "receitas": [
+      {
+        "nome": "Tucunaré ao Molho de Tucupi",
+        "tipo": "salgado",
+        "descricao": "Prato típico com tucunaré cozido em tucupi, um caldo amazônico de sabor marcante.",
+        "ingredientes": [
+          "1 tucunaré (cerca de 1,5kg), limpo e cortado em postas",
+          "500ml de tucupi",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o tucunaré com sal e pimenta e deixe descansar por 20 minutos.",
+          "Em uma panela, refogue a cebola, o tomate e o pimentão até amolecerem.",
+          "Adicione o tucupi, misture bem e deixe ferver por 5 minutos.",
+          "Coloque as postas de tucunaré, tampe e cozinhe em fogo baixo por 20 minutos, ou até o peixe estar macio.",
+          "Finalize com cheiro-verde e sirva com arroz branco ou farinha d’água."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/Roraima/tucunare-tucupi.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Paçoca de Carne Seca",
+        "tipo": "salgado",
+        "descricao": "Acompanhamento tradicional com carne seca triturada e farinha, herança nordestina.",
+        "ingredientes": [
+          "500g de carne seca dessalgada e cozida",
+          "2 xícaras de farinha de mandioca",
+          "1 cebola picada",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne seca em água por 12 horas, trocando a água algumas vezes, depois cozinhe até ficar macia e desfie.",
+          "Em uma frigideira, derreta a manteiga e refogue a cebola até dourar.",
+          "Adicione a carne desfiada, tempere com sal e pimenta e misture bem.",
+          "Junte a farinha de mandioca aos poucos, mexendo até incorporar e ficar crocante (cerca de 5 minutos).",
+          "Sirva como acompanhamento ou petisco."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos (após dessalgar)",
+        "imagem": "/imagem/Roraima/pacoca-carne-seca.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Suco de Taperebá",
+        "tipo": "bebida",
+        "descricao": "Bebida refrescante feita com taperebá, fruta típica da Amazônia, também conhecida como cajá.",
+        "ingredientes": [
+          "500g de polpa de taperebá",
+          "500ml de água gelada",
+          "3 colheres de sopa de açúcar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Coloque a polpa de taperebá, a água e o açúcar no liquidificador.",
+          "Bata por 1-2 minutos até ficar homogêneo.",
+          "Coe se preferir mais leve, e sirva gelado."
+        ],
+        "rendimento": "3 copos, serve 3 pessoas",
+        "tempo_de_preparo": "10 minutos",
+        "imagem": "/imagem/Roraima/suco-tapereba.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Caldo de Pacu",
+        "tipo": "salgado",
+        "descricao": "Caldo simples e saboroso feito com pacu, peixe comum nos rios de Roraima.",
+        "ingredientes": [
+          "1kg de pacu em postas",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em cubos",
+          "1 litro de água",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o pacu com sal e pimenta e reserve por 20 minutos.",
+          "Em uma panela, refogue a cebola, o tomate e o pimentão até amolecerem.",
+          "Adicione a água e as batatas, cozinhando por 10 minutos em fogo médio.",
+          "Coloque as postas de pacu e cozinhe por mais 15 minutos, até o peixe estar macio.",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Roraima/caldo-pacu.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Açaí",
+        "tipo": "doce",
+        "descricao": "Bolo úmido e exótico feito com polpa de açaí, uma iguaria local.",
+        "ingredientes": [
+          "300g de polpa de açaí",
+          "2 xícaras de farinha de trigo",
+          "1 xícara de açúcar",
+          "3 ovos",
+          "1/2 xícara de óleo",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com óleo e farinha.",
+          "No liquidificador, bata a polpa de açaí, os ovos, o açúcar e o óleo até ficar homogêneo.",
+          "Transfira para uma tigela, adicione a farinha e o fermento, misturando delicadamente.",
+          "Despeje na forma e asse por 40 minutos, ou até um palito sair limpo.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Roraima/bolo-acai.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

@@ -1,0 +1,134 @@
+{
+    "nome": "Sergipe",
+    "sigla": "SE",
+    "historia": "A culinária de Sergipe é um reflexo da sua posição privilegiada entre o sertão e o mar, misturando tradições indígenas, africanas e portuguesas. No litoral, caranguejo, camarão e peixes brilham em pratos leves e saborosos; no interior, carne de sol, milho e mandioca contam histórias de resistência e fartura. O estado, apesar de pequeno, tem uma cozinha marcante, com receitas como o caranguejo cozido e o munguzá, que unem simplicidade e sabores intensos. É uma gastronomia acolhedora, que celebra a vida nordestina em cada mordida.",
+    "receitas": [
+      {
+        "nome": "Caranguejo Cozido",
+        "tipo": "salgado",
+        "descricao": "Prato típico do litoral sergipano, com caranguejo preparado com temperos simples e marcantes.",
+        "ingredientes": [
+          "1kg de caranguejo limpo",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 dentes de alho amassados",
+          "200ml de leite de coco",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Cozinhe os caranguejos em água com sal por 10 minutos, escorra e reserve.",
+          "Em uma panela, refogue o alho, a cebola e o pimentão no azeite até amolecerem.",
+          "Adicione os tomates e cozinhe por 5 minutos, mexendo bem.",
+          "Junte os caranguejos, o leite de coco, sal e pimenta, e cozinhe por 15 minutos em fogo baixo.",
+          "Finalize com coentro e sirva com farofa ou arroz."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/Sergipe/caranguejo-cozido.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Moqueca de Peixe Sergipana",
+        "tipo": "salgado",
+        "descricao": "Ensopado leve de peixe com leite de coco e temperos, típico do litoral de Sergipe.",
+        "ingredientes": [
+          "1kg de peixe em postas (ex.: robalo ou cioba)",
+          "200ml de leite de coco",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "Suco de 1 limão",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 20 minutos.",
+          "Em uma panela, refogue a cebola, o tomate e o pimentão no azeite até amolecerem.",
+          "Adicione o leite de coco e cozinhe por 5 minutos, ajustando o sal.",
+          "Junte o peixe, tampe e cozinhe em fogo baixo por 15 minutos, até ficar macio.",
+          "Finalize com coentro e sirva com arroz branco."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/Sergipe/moqueca-de-peixe-sergipana.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Munguzá Doce",
+        "tipo": "doce",
+        "descricao": "Doce tradicional de milho com leite de coco, comum nas festas juninas de Sergipe.",
+        "ingredientes": [
+          "2 xícaras de milho para munguzá (canjica)",
+          "1 litro de leite",
+          "200ml de leite de coco",
+          "1 xícara de açúcar",
+          "1 canela em pau",
+          "2 cravos-da-índia",
+          "1 pitada de sal"
+        ],
+        "modo_de_preparo": [
+          "Deixe o milho de molho em água por 12 horas, depois escorra.",
+          "Cozinhe o milho em água com sal por 1 hora, até ficar macio, e escorra novamente.",
+          "Em uma panela, adicione o leite, o leite de coco, o açúcar, a canela e os cravos, e leve ao fogo médio.",
+          "Junte o milho cozido e cozinhe por 30 minutos, mexendo às vezes, até engrossar.",
+          "Sirva quente ou frio, polvilhado com canela se desejar."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora e 40 minutos (após o molho)",
+        "imagem": "/imagem/Sergipe/munguza-doce.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Carne de Sol com Macaxeira",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo clássico, com carne de sol grelhada e macaxeira cozida.",
+        "ingredientes": [
+          "500g de carne de sol dessalgada",
+          "500g de macaxeira descascada",
+          "1 cebola picada",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois corte em bifes.",
+          "Cozinhe a macaxeira em água com sal por 20 minutos, até ficar macia, e reserve.",
+          "Em uma frigideira, derreta a manteiga e refogue a cebola até dourar.",
+          "Grelhe os bifes de carne por 5 minutos de cada lado.",
+          "Sirva a carne com a macaxeira, finalize com cheiro-verde e acompanhe com feijão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos (após dessalgar)",
+        "imagem": "/imagem/Sergipe/carne-de-sol-com-macaxeira.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Bolo de Milho Sergipano",
+        "tipo": "doce",
+        "descricao": "Bolo cremoso feito com milho verde, típico das tradições sergipanas.",
+        "ingredientes": [
+          "4 espigas de milho verde (ou 2 xícaras de milho debulhado)",
+          "1 xícara de açúcar",
+          "200ml de leite de coco",
+          "2 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "No liquidificador, bata o milho, o açúcar, o leite de coco, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente com uma colher.",
+          "Despeje a massa na forma e asse por 40 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "8 fatias, serve 6-8 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Sergipe/bolo-de-milho-sergipano.webp",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

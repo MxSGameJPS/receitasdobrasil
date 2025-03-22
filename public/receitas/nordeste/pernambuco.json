@@ -1,0 +1,131 @@
+{
+    "nome": "Pernambuco",
+    "sigla": "PE",
+    "historia": "A culinária de Pernambuco é uma celebração de sua história rica e diversa, onde o açúcar colonial, a herança africana e as tradições indígenas se encontram. Do litoral, vêm pratos como a peixada e o caldo de sururu; do sertão, a carne de sol e o milho reinam em receitas simples e robustas. O bolo de rolo, ícone doce do estado, reflete a influência portuguesa e a fartura da cana-de-açúcar. Com temperos marcantes e ingredientes como mandioca e coco, Pernambuco oferece uma cozinha que é ao mesmo tempo regional e universal, cheia de sabor e memória.",
+    "receitas": [
+      {
+        "nome": "Carne de Sol com Pirão",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo típico, com carne de sol grelhada e pirão de farinha de mandioca.",
+        "ingredientes": [
+          "500g de carne de sol dessalgada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de manteiga",
+          "1 xícara de farinha de mandioca",
+          "500ml de água",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois corte em bifes.",
+          "Em uma frigideira, derreta a manteiga e refogue a cebola e o alho até dourarem.",
+          "Grelhe os bifes de carne por 5 minutos de cada lado e reserve.",
+          "Na mesma frigideira, adicione a água e, aos poucos, a farinha de mandioca, mexendo até formar um pirão cremoso.",
+          "Ajuste o sal, finalize com cheiro-verde e sirva a carne com o pirão."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos (após dessalgar)",
+        "imagem": "/imagem/Pernambuco/carne-de-sol-com-pirao.png",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Peixada Pernambucana",
+        "tipo": "salgado",
+        "descricao": "Ensopado leve de peixe com legumes e leite de coco, clássico do litoral pernambucano.",
+        "ingredientes": [
+          "1kg de peixe em postas (ex.: robalo ou cioba)",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 batatas em rodelas",
+          "200ml de leite de coco",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 20 minutos.",
+          "Em uma panela, refogue a cebola, o tomate e o pimentão até amolecerem.",
+          "Adicione as batatas e cubra com água, cozinhando por 10 minutos.",
+          "Junte o peixe e o leite de coco, tampe e cozinhe por 15 minutos, até o peixe estar macio.",
+          "Finalize com coentro e sirva com arroz branco."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "45 minutos",
+        "imagem": "/imagem/Pernambuco/peixada-pernambucana.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Bolo de Rolo",
+        "tipo": "doce",
+        "descricao": "Doce icônico de Pernambuco, com finas camadas de massa e recheio de goiabada.",
+        "ingredientes": [
+          "4 ovos",
+          "1 xícara de açúcar",
+          "1 xícara de farinha de trigo",
+          "1 colher de sopa de manteiga",
+          "200g de goiabada derretida",
+          "Açúcar de confeiteiro para polvilhar"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma assadeira retangular com manteiga.",
+          "Bata os ovos e o açúcar até formar um creme claro, adicione a farinha e a manteiga, misturando bem.",
+          "Espalhe uma camada fina da massa na assadeira e asse por 5 minutos, até firmar. Repita até acabar a massa.",
+          "Espalhe goiabada derretida sobre cada camada, enrole ainda quente e deixe esfriar.",
+          "Polvilhe açúcar de confeiteiro e corte em fatias para servir."
+        ],
+        "rendimento": "10 fatias, serve 8-10 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Pernambuco/bolo-de-rolo.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Caldo de Sururu",
+        "tipo": "salgado",
+        "descricao": "Sopa quente e saborosa de sururu, típica do litoral pernambucano.",
+        "ingredientes": [
+          "1kg de sururu limpo",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "200ml de leite de coco",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Refogue a cebola, o tomate e o pimentão no azeite até amolecerem.",
+          "Adicione o sururu e cozinhe por 5 minutos, mexendo bem.",
+          "Junte o leite de coco, sal e pimenta, e cozinhe em fogo baixo por 15 minutos, até o caldo engrossar.",
+          "Finalize com coentro e sirva quente com pão ou torradas."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Pernambuco/caldo-de-sururu.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Cartola",
+        "tipo": "doce",
+        "descricao": "Sobremesa tradicional com banana frita, queijo e açúcar, popular em Pernambuco.",
+        "ingredientes": [
+          "4 bananas maduras (prata ou da terra)",
+          "100g de queijo coalho em fatias",
+          "2 colheres de sopa de manteiga",
+          "2 colheres de sopa de açúcar",
+          "Canela em pó a gosto"
+        ],
+        "modo_de_preparo": [
+          "Corte as bananas ao meio no sentido do comprimento.",
+          "Em uma frigideira, derreta a manteiga e frite as bananas até dourarem (cerca de 3 minutos de cada lado).",
+          "Coloque as fatias de queijo por cima das bananas ainda na frigideira e deixe derreter por 1 minuto.",
+          "Polvilhe açúcar e canela, retire do fogo e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "20 minutos",
+        "imagem": "/imagem/Pernambuco/cartola.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

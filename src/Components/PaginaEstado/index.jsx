@@ -6,13 +6,21 @@ export default function PaginaEstado() {
   const { estado } = useParams(); // Pega o estado da URL (ex.: "Acre")
   const [dadosEstado, setDadosEstado] = useState(null);
 
+  const normalizarString = (str) =>
+    str
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "") // Remove acentos
+      .replace(/[\s-]+/g, ""); // Remove espaços e hífens
+
   useEffect(() => {
     const carregarDados = async () => {
       try {
         const responseBrasil = await fetch("/receitas/pais/brasil.json");
         const brasilData = await responseBrasil.json();
+        const estadoNormalizado = normalizarString(estado);
         const estadoData = brasilData.find(
-          (item) => item.estado.toLowerCase() === estado.toLowerCase()
+          (item) => normalizarString(item.estado) === estadoNormalizado
         );
         if (!estadoData) throw new Error("Estado não encontrado");
         const responseEstado = await fetch(estadoData.json);

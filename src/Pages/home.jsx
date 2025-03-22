@@ -1,7 +1,40 @@
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom"; // Adicionado pra redirecionar
 import styled from "styled-components";
 
-
 export default function Home() {
+  const [estados, setEstados] = useState([]);
+  const [searchTerm, setSearchTerm] = useState(""); // Estado pra barra de pesquisa
+  const navigate = useNavigate(); // Hook pra navegação
+
+  useEffect(() => {
+    const carregarEstados = async () => {
+      try {
+        const response = await fetch("/receitas/pais/brasil.json");
+        if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
+        const data = await response.json();
+        setEstados(data);
+      } catch (error) {
+        console.error("Erro ao carregar estados:", error);
+      }
+    };
+    carregarEstados();
+  }, []);
+
+  // Função pra lidar com o submit da pesquisa
+  const handleSearch = (e) => {
+    e.preventDefault();
+    const estadoEncontrado = estados.find(
+      (estado) => estado.estado.toLowerCase() === searchTerm.toLowerCase()
+    );
+    if (estadoEncontrado) {
+      navigate(`/${estadoEncontrado.estado}`);
+    } else {
+      alert("Estado não encontrado. Tente novamente!");
+    }
+    setSearchTerm(""); // Limpa a barra após a busca
+  };
+
   return (
     <ContainerHome>
       <h1>Bem-vindo ao Sabor do Brasil!</h1>
@@ -26,13 +59,23 @@ export default function Home() {
         pra explorar a cultura do país, resgatar memórias de família ou
         simplesmente cozinhar algo novo, este é o lugar pra descobrir o Brasil
         pelo paladar. Vamos juntos nessa viagem de sabores?
-      </p>      
+      </p>
+      <SearchContainer>
+        <SearchForm onSubmit={handleSearch}>
+          <SearchInput
+            type="text"
+            placeholder="Receita de qual estado você procura?"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <SearchButton type="submit">Buscar</SearchButton>
+        </SearchForm>
+      </SearchContainer>
     </ContainerHome>
   );
 }
 
 const ContainerHome = styled.div`
-  display: inline-block;
   max-width: 800px;
   margin: 150px auto;
   padding: 35px 90px;
@@ -50,5 +93,41 @@ const ContainerHome = styled.div`
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 2rem;
+  }
+`;
+
+const SearchContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+`;
+
+const SearchForm = styled.form`
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  gap: 10px;
+`;
+
+const SearchInput = styled.input`
+  flex: 1;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 18px;
+  outline: none;  
+`;
+
+const SearchButton = styled.button`
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #ff9c00;
+  color: #ffffff;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #aa6600;
   }
 `;

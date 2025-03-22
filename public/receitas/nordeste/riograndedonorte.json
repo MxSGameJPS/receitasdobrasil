@@ -1,0 +1,122 @@
+{
+    "nome": "Rio Grande do Norte",
+    "sigla": "RN",
+    "historia": "A culinária do Rio Grande do Norte é um encontro entre o mar e o sertão, moldada por influências indígenas, africanas e portuguesas. No litoral, camarão, caranguejo e peixes brilham em pratos leves e saborosos; no interior, carne de sol, queijo coalho e mandioca contam a história de um povo resistente à seca. O milho aparece em cuscuz e canjicas, enquanto o feijão-verde une a mesa potiguar. Simples e acolhedora, essa cozinha reflete a vida do nordestino, com sabores que celebram tanto a fartura quanto a criatividade.",
+    "receitas": [
+      {
+        "nome": "Camarão à Moda Potiguar",
+        "tipo": "salgado",
+        "descricao": "Prato típico do litoral norte-rio-grandense, com camarão refogado em molho cremoso de coco.",
+        "ingredientes": [
+          "500g de camarão limpo",
+          "200ml de leite de coco",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Refogue o alho, a cebola e o pimentão no azeite até amolecerem.",
+          "Adicione os tomates e cozinhe por 5 minutos, mexendo bem.",
+          "Junte o camarão, o leite de coco, sal e pimenta, e cozinhe por 10 minutos em fogo baixo.",
+          "Finalize com coentro e sirva com arroz branco ou purê de mandioca."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/RioGrandeDoNorte/camarao-a-moda-potiguar.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Carne de Sol com Queijo",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo clássico, com carne de sol grelhada e queijo coalho derretido.",
+        "ingredientes": [
+          "500g de carne de sol dessalgada",
+          "200g de queijo coalho em fatias",
+          "1 cebola picada",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois corte em bifes.",
+          "Em uma frigideira, derreta a manteiga e refogue a cebola até dourar.",
+          "Grelhe os bifes de carne por 5 minutos de cada lado.",
+          "Coloque as fatias de queijo coalho por cima da carne, tampe a frigideira por 2 minutos até derreter.",
+          "Sirva quente com feijão-verde e farofa."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos (após dessalgar)",
+        "imagem": "/imagem/RioGrandeDoNorte/carne-de-sol-com-queijo.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Ginga com Tapioca",
+        "tipo": "salgado",
+        "descricao": "Petisco famoso de Natal, com peixe ginga frito servido dentro de tapioca.",
+        "ingredientes": [
+          "500g de peixe ginga (ou manjuba) limpo",
+          "2 xícaras de goma de tapioca",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto",
+          "Óleo para fritar",
+          "Manteiga para untar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 20 minutos.",
+          "Frite o peixe em óleo quente até dourar (cerca de 5 minutos), escorra e reserve.",
+          "Peneire a goma de tapioca em uma frigideira aquecida, espalhe uniformemente e cozinhe por 2 minutos até firmar.",
+          "Coloque o peixe frito no centro, dobre a tapioca ao meio e sirva quente."
+        ],
+        "rendimento": "4 tapiocas, serve 2-4 pessoas",
+        "tempo_de_preparo": "40 minutos",
+        "imagem": "/imagem/RioGrandeDoNorte/ginga-com-tapioca.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Cuscuz Potiguar",
+        "tipo": "salgado",
+        "descricao": "Cuscuz de milho cozido no vapor, acompanhamento tradicional do Rio Grande do Norte.",
+        "ingredientes": [
+          "2 xícaras de flocos de milho",
+          "1 xícara de água",
+          "1 colher de chá de sal",
+          "Manteiga para untar (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Misture os flocos de milho com água e sal em uma tigela, até ficar úmido e soltinho, e deixe descansar por 10 minutos.",
+          "Coloque a mistura em uma cuscuzeira untada com manteiga, se desejar.",
+          "Cozinhe no vapor por 15 minutos, até firmar.",
+          "Desenforme e sirva quente com carne de sol ou queijo coalho."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/RioGrandeDoNorte/cuscuz-potiguar.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Cartola Potiguar",
+        "tipo": "doce",
+        "descricao": "Sobremesa simples de banana frita com queijo e açúcar, popular no estado.",
+        "ingredientes": [
+          "4 bananas maduras (prata ou da terra)",
+          "100g de queijo coalho em fatias",
+          "2 colheres de sopa de manteiga",
+          "2 colheres de sopa de açúcar",
+          "Canela em pó a gosto"
+        ],
+        "modo_de_preparo": [
+          "Corte as bananas ao meio no sentido do comprimento.",
+          "Em uma frigideira, derreta a manteiga e frite as bananas até dourarem (cerca de 3 minutos de cada lado).",
+          "Coloque as fatias de queijo por cima das bananas ainda na frigideira e deixe derreter por 1 minuto.",
+          "Polvilhe açúcar e canela, retire do fogo e sirva quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "20 minutos",
+        "imagem": "/imagem/RioGrandeDoNorte/cartola-potiguar.webp",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

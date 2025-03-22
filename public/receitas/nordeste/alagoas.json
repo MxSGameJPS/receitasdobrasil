@@ -1,0 +1,135 @@
+{
+    "nome": "Alagoas",
+    "sigla": "AL",
+    "historia": "A culinária de Alagoas é um reflexo vibrante de sua localização litorânea e de sua história multicultural. Influenciada por povos indígenas, africanos e portugueses, ela destaca frutos do mar como o sururu e o camarão, muitas vezes combinados com o leite de coco e temperos marcantes como a pimenta. A mandioca e o coco são pilares dessa cozinha, aparecendo em pratos salgados e doces que contam histórias de resistência e celebração. Do interior ao litoral, Alagoas transforma ingredientes simples em sabores intensos, como o arrumadinho e as cocadas, que encantam moradores e visitantes.",
+    "receitas": [
+      {
+        "nome": "Sururu ao Coco",
+        "tipo": "salgado",
+        "descricao": "Prato icônico de Alagoas, um ensopado cremoso de sururu com leite de coco e temperos regionais.",
+        "ingredientes": [
+          "1kg de sururu limpo",
+          "200ml de leite de coco",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de azeite de dendê",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Refogue o alho, a cebola e o pimentão no azeite de dendê até amolecerem.",
+          "Adicione os tomates e cozinhe por 5 minutos, mexendo bem.",
+          "Junte o sururu, o leite de coco, o sal e a pimenta, misturando delicadamente.",
+          "Cozinhe em fogo baixo por 15 minutos, até o sururu ficar macio e o caldo engrossar.",
+          "Finalize com cheiro-verde e sirva com arroz branco e farofa."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Alagoas/sururu-ao-coco.avif",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Chiclete de Camarão",
+        "tipo": "salgado",
+        "descricao": "Prato famoso de Maceió, com camarão e queijos derretidos que dão uma textura elástica única.",
+        "ingredientes": [
+          "500g de camarão limpo",
+          "200g de queijo muçarela ralado",
+          "100g de queijo parmesão ralado",
+          "200ml de creme de leite",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de azeite",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Refogue o alho e a cebola no azeite até dourarem.",
+          "Adicione o camarão, tempere com sal e pimenta e cozinhe por 5 minutos.",
+          "Junte o creme de leite e os queijos, mexendo até derreterem e formar um creme espesso.",
+          "Cozinhe por mais 5 minutos em fogo baixo, mexendo bem.",
+          "Finalize com cheiro-verde e sirva quente com arroz ou como petisco."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "25 minutos",
+        "imagem": "/imagem/Alagoas/chiclete-camarao.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Pudim de Tapioca",
+        "tipo": "doce",
+        "descricao": "Sobremesa tradicional alagoana, cremosa e com o toque especial do coco.",
+        "ingredientes": [
+          "1 xícara de tapioca granulada",
+          "500ml de leite",
+          "1 lata de leite condensado (395g)",
+          "200ml de leite de coco",
+          "3 ovos",
+          "1 xícara de açúcar (para o caramelo)",
+          "50g de coco ralado"
+        ],
+        "modo_de_preparo": [
+          "Deixe a tapioca de molho no leite por 1 hora até amolecer.",
+          "Derreta o açúcar em uma panela até formar um caramelo dourado e despeje em uma forma de pudim.",
+          "No liquidificador, bata a tapioca com o leite, o leite condensado, o leite de coco, os ovos e o coco ralado até ficar homogêneo.",
+          "Despeje a mistura na forma caramelizada e asse em banho-maria a 180°C por 50 minutos, ou até firmar.",
+          "Deixe esfriar, leve à geladeira por 2 horas, desenforme e sirva."
+        ],
+        "rendimento": "8 porções, serve 8 pessoas",
+        "tempo_de_preparo": "1 hora e 30 minutos (mais 2 horas de geladeira)",
+        "imagem": "/imagem/Alagoas/pudim-tapioca.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Arrumadinho de Feijão",
+        "tipo": "salgado",
+        "descricao": "Prato simples e saboroso, com camadas de feijão, carne de sol e acompanhamentos.",
+        "ingredientes": [
+          "2 xícaras de feijão verde cozido",
+          "300g de carne de sol dessalgada e desfiada",
+          "1 cebola picada",
+          "2 tomates picados",
+          "1 xícara de farinha de mandioca",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois cozinhe e desfie.",
+          "Em uma frigideira, refogue a cebola e os tomates na manteiga até amolecerem.",
+          "Adicione a carne desfiada, tempere com sal e pimenta e refogue por 5 minutos.",
+          "Monte o prato: coloque o feijão cozido, a carne refogada por cima e finalize com farinha de mandioca e cheiro-verde.",
+          "Sirva quente como prato principal ou petisco."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos (após dessalgar)",
+        "imagem": "/imagem/Alagoas/arrumadinho-feijao.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Cocada de Massagueira",
+        "tipo": "doce",
+        "descricao": "Doce artesanal famoso da região da Massagueira, com coco e variações de sabores.",
+        "ingredientes": [
+          "500g de coco fresco ralado",
+          "2 xícaras de açúcar",
+          "200ml de leite",
+          "1 colher de sopa de manteiga",
+          "1 pitada de sal"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, misture o coco ralado, o açúcar, o leite, a manteiga e o sal.",
+          "Leve ao fogo médio, mexendo sempre, até o açúcar dissolver e a mistura engrossar (cerca de 20 minutos).",
+          "Quando começar a desgrudar do fundo da panela, retire do fogo.",
+          "Despeje em uma superfície untada, deixe esfriar um pouco e corte em quadrados ou modele como preferir.",
+          "Deixe esfriar completamente antes de servir."
+        ],
+        "rendimento": "20 pedaços, serve 6-8 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Alagoas/cocada-massagueira.jpg",
+        "dificuldade": "Fácil"
+      }
+    ]
+  }

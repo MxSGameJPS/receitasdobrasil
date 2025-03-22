@@ -22,7 +22,7 @@
         ],
         "rendimento": "6 porções, serve 6 pessoas",
         "tempo_de_preparo": "1 hora",
-        "imagem": "/imagem/Amazonas/tambaqui-assado.jpg",
+        "imagem": "/imagem/Amazonas/Tambaqui.jpg",
         "dificuldade": "Médio"
       },
       {
@@ -68,7 +68,7 @@
         ],
         "rendimento": "2 copos, serve 2 pessoas",
         "tempo_de_preparo": "15 minutos",
-        "imagem": "/imagem/Amazonas/suco-guarana.jpg",
+        "imagem": "/imagem/Amazonas/suco-guarana.webp",
         "dificuldade": "Fácil"
       },
       {
@@ -90,7 +90,7 @@
         ],
         "rendimento": "6 porções, serve 6 pessoas",
         "tempo_de_preparo": "40 minutos",
-        "imagem": "/imagem/Amazonas/mungunza-tucuma.jpg",
+        "imagem": "/imagem/Amazonas/mugunza.avif",
         "dificuldade": "Médio"
       },
       {
@@ -113,7 +113,7 @@
         ],
         "rendimento": "15 bolinhos, serve 4-5 pessoas",
         "tempo_de_preparo": "45 minutos",
-        "imagem": "/imagem/Amazonas/bolinho-tambaqui.jpg",
+        "imagem": "/imagem/Amazonas/bolinho-tambaqui.jpeg",
         "dificuldade": "Médio"
       }
     ]

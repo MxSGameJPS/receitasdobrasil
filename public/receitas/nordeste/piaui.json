@@ -1,0 +1,136 @@
+{
+    "nome": "Piauí",
+    "sigla": "PI",
+    "historia": "A culinária do Piauí é um reflexo da vida sertaneja, onde a simplicidade se transforma em sabor com ingredientes como mandioca, milho e carne de bode, herança de um povo acostumado a aproveitar o que a terra oferece. Influenciada por indígenas, africanos e portugueses, ela traz pratos rústicos como a paçoca de carne e o capote, que contam histórias de resistência e adaptação. Apesar de menos conhecida, a cozinha piauiense é generosa e acolhedora, com um toque especial de temperos regionais e a força do interior nordestino.",
+    "receitas": [
+      {
+        "nome": "Paçoca de Carne de Sol",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo típico do Piauí, com carne de sol triturada e farinha de mandioca.",
+        "ingredientes": [
+          "500g de carne de sol dessalgada",
+          "2 xícaras de farinha de mandioca",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois cozinhe até ficar macia e desfie.",
+          "Em uma frigideira, derreta a manteiga e refogue o alho e a cebola até dourarem.",
+          "Adicione a carne desfiada, tempere com sal e pimenta e refogue por 5 minutos.",
+          "Junte a farinha de mandioca aos poucos, mexendo até ficar crocante (cerca de 5 minutos).",
+          "Finalize com cheiro-verde e sirva com feijão ou como petisco."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "40 minutos (após dessalgar)",
+        "imagem": "/imagem/Piaui/pacoca-de-carne-de-sol.jpg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Capote Guisado",
+        "tipo": "salgado",
+        "descricao": "Prato tradicional do sertão piauiense, feito com galinha caipira ou capote em molho rico.",
+        "ingredientes": [
+          "1 capote (ou galinha caipira) cortado em pedaços",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão verde picado",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de azeite",
+          "1 colher de chá de colorau",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o capote com sal, pimenta e colorau e deixe marinar por 30 minutos.",
+          "Em uma panela, refogue o alho, a cebola e o pimentão no azeite até amolecerem.",
+          "Adicione os tomates e cozinhe por 5 minutos, mexendo bem.",
+          "Junte o capote, cubra com água e cozinhe em fogo baixo por 1 hora, até a carne ficar macia.",
+          "Finalize com coentro e sirva com arroz ou farofa."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "1 hora e 30 minutos",
+        "imagem": "/imagem/Piaui/capote-guisado.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Maria Isabel",
+        "tipo": "salgado",
+        "descricao": "Prato sertanejo com arroz e carne de sol, simples e saboroso, típico do Piauí.",
+        "ingredientes": [
+          "2 xícaras de arroz",
+          "300g de carne de sol dessalgada e desfiada",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de manteiga",
+          "Sal e pimenta a gosto",
+          "Cheiro-verde picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Dessalgue a carne de sol em água por 12 horas, trocando a água algumas vezes, depois cozinhe e desfie.",
+          "Em uma panela, refogue o alho e a cebola na manteiga até dourarem.",
+          "Adicione a carne desfiada e refogue por 5 minutos.",
+          "Junte o arroz, cubra com água (cerca de 4 xícaras), ajuste o sal e cozinhe até secar.",
+          "Finalize com cheiro-verde e sirva quente."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "40 minutos (após dessalgar)",
+        "imagem": "/imagem/Piaui/maria-isabel.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Bolo de Macaxeira com Coco",
+        "tipo": "doce",
+        "descricao": "Bolo fofinho e tradicional do Piauí, feito com macaxeira e coco ralado.",
+        "ingredientes": [
+          "1kg de macaxeira ralada",
+          "2 xícaras de açúcar",
+          "200ml de leite de coco",
+          "100g de coco ralado",
+          "3 ovos",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de fermento em pó"
+        ],
+        "modo_de_preparo": [
+          "Preaqueça o forno a 180°C e unte uma forma com manteiga.",
+          "Em uma tigela, misture a macaxeira ralada, o açúcar, o leite de coco, o coco ralado, os ovos e a manteiga até ficar homogêneo.",
+          "Adicione o fermento e misture delicadamente.",
+          "Despeje a massa na forma e asse por 50 minutos, ou até dourar por cima.",
+          "Deixe esfriar antes de cortar e servir."
+        ],
+        "rendimento": "10 fatias, serve 8-10 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Piaui/bolo-de-macaxeira-com-coco.jpeg",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Cuscuz com Carne de Bode",
+        "tipo": "salgado",
+        "descricao": "Cuscuz de milho acompanhado de carne de bode refogada, um clássico do sertão piauiense.",
+        "ingredientes": [
+          "2 xícaras de flocos de milho",
+          "1 xícara de água",
+          "1 colher de chá de sal",
+          "500g de carne de bode cortada em cubos",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "2 colheres de sopa de azeite",
+          "1 colher de chá de colorau",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Misture os flocos de milho com água e sal, deixe descansar por 10 minutos e cozinhe no vapor em uma cuscuzeira por 15 minutos.",
+          "Tempere a carne de bode com sal, pimenta e colorau e deixe marinar por 30 minutos.",
+          "Em uma panela, refogue o alho e a cebola no azeite até dourarem, adicione a carne e cozinhe por 40 minutos, até ficar macia (adicione água se necessário).",
+          "Finalize a carne com coentro e sirva com o cuscuz quente."
+        ],
+        "rendimento": "4 porções, serve 4 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Piaui/cuscuz-com-carne-de-bode.jpg",
+        "dificuldade": "Médio"
+      }
+    ]
+  }

@@ -1,0 +1,134 @@
+{
+    "nome": "Bahia",
+    "sigla": "BA",
+    "historia": "A culinária da Bahia é uma explosão de sabores e cores, profundamente enraizada na herança africana, com toques indígenas e portugueses. O azeite de dendê, a pimenta-malagueta e o leite de coco são a alma de pratos como o acarajé e a moqueca, que refletem a força da cultura afro-baiana. Frutos do mar, mandioca e frutas tropicais como o caju e o umbu complementam essa cozinha vibrante, que nasceu nos terreiros e ganhou o mundo. Na Bahia, comer é celebrar a vida, a resistência e a mistura de povos que fazem desse estado um caldeirão gastronômico único.",
+    "receitas": [
+      {
+        "nome": "Acarajé",
+        "tipo": "salgado",
+        "descricao": "Bolinho frito de feijão-fradinho, recheado com vatapá, camarão e pimenta, símbolo da culinária afro-baiana.",
+        "ingredientes": [
+          "500g de feijão-fradinho",
+          "1 cebola grande picada",
+          "Sal a gosto",
+          "Azeite de dendê para fritar",
+          "200g de vatapá (pronto ou caseiro)",
+          "100g de camarão seco",
+          "Pimenta-malagueta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Deixe o feijão de molho por 12 horas, trocando a água algumas vezes, depois esfregue para remover as cascas e bata no liquidificador com a cebola e sal até formar uma massa.",
+          "Aqueça o azeite de dendê em uma panela funda.",
+          "Com uma colher, molde bolinhos da massa e frite no dendê quente até dourarem (cerca de 5 minutos de cada lado).",
+          "Escorra, corte ao meio e recheie com vatapá, camarão seco e pimenta.",
+          "Sirva quente como lanche ou entrada."
+        ],
+        "rendimento": "10 acarajés, serve 5 pessoas",
+        "tempo_de_preparo": "1 hora (após o molho)",
+        "imagem": "/imagem/Bahia/acaraje.webp",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Moqueca Baiana de Peixe",
+        "tipo": "salgado",
+        "descricao": "Ensopado rico e colorido de peixe com dendê, coco e pimentões, servido com arroz e farofa.",
+        "ingredientes": [
+          "1kg de peixe em postas (ex.: robalo ou badejo)",
+          "200ml de leite de coco",
+          "3 colheres de sopa de azeite de dendê",
+          "2 tomates picados",
+          "1 cebola picada",
+          "1 pimentão vermelho picado",
+          "1 pimentão amarelo picado",
+          "Suco de 1 limão",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Tempere o peixe com limão, sal e pimenta e deixe marinar por 30 minutos.",
+          "Em uma panela, refogue a cebola, os tomates e os pimentões no azeite de dendê por 5 minutos.",
+          "Adicione o leite de coco e ajuste o sal, deixando ferver por 5 minutos.",
+          "Coloque as postas de peixe, tampe e cozinhe em fogo baixo por 20 minutos, até o peixe estar macio.",
+          "Finalize com coentro e sirva com arroz e farofa."
+        ],
+        "rendimento": "5 porções, serve 5 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Bahia/moqueca-baiana.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Cocada Baiana",
+        "tipo": "doce",
+        "descricao": "Doce tradicional de coco, com variações de sabores, vendido nas ruas da Bahia.",
+        "ingredientes": [
+          "500g de coco fresco ralado",
+          "2 xícaras de açúcar",
+          "200ml de leite",
+          "1 colher de sopa de manteiga",
+          "1 pitada de sal"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, misture o coco, o açúcar, o leite, a manteiga e o sal.",
+          "Leve ao fogo médio, mexendo sempre, até o açúcar dissolver e a mistura engrossar (cerca de 20 minutos).",
+          "Quando começar a desgrudar do fundo, retire do fogo.",
+          "Despeje em uma superfície untada, deixe esfriar um pouco e corte em quadrados ou modele como preferir.",
+          "Deixe esfriar completamente antes de servir."
+        ],
+        "rendimento": "20 pedaços, serve 6-8 pessoas",
+        "tempo_de_preparo": "30 minutos",
+        "imagem": "/imagem/Bahia/cocada-baiana.webp",
+        "dificuldade": "Fácil"
+      },
+      {
+        "nome": "Vatapá",
+        "tipo": "salgado",
+        "descricao": "Creme espesso de pão, amendoim, camarão e dendê, usado como acompanhamento ou recheio.",
+        "ingredientes": [
+          "200g de pão amanhecido",
+          "200ml de leite de coco",
+          "100g de amendoim torrado e moído",
+          "100g de camarão seco",
+          "2 colheres de sopa de azeite de dendê",
+          "1 cebola picada",
+          "2 dentes de alho amassados",
+          "Sal e pimenta a gosto",
+          "Coentro picado a gosto"
+        ],
+        "modo_de_preparo": [
+          "Deixe o pão de molho no leite de coco por 30 minutos, depois bata no liquidificador até formar um creme.",
+          "Em uma panela, refogue o alho e a cebola no azeite de dendê até dourarem.",
+          "Adicione o creme de pão, o amendoim moído e o camarão seco, mexendo bem.",
+          "Cozinhe em fogo baixo por 15 minutos, ajustando o sal e a pimenta, até engrossar.",
+          "Finalize com coentro e sirva com acarajé ou arroz."
+        ],
+        "rendimento": "6 porções, serve 6 pessoas",
+        "tempo_de_preparo": "50 minutos",
+        "imagem": "/imagem/Bahia/vatapa.jpg",
+        "dificuldade": "Médio"
+      },
+      {
+        "nome": "Quindim",
+        "tipo": "doce",
+        "descricao": "Doce brilhante e delicado feito com gemas, açúcar e coco, herança portuguesa adaptada na Bahia.",
+        "ingredientes": [
+          "10 gemas de ovos",
+          "1 xícara de açúcar",
+          "200ml de leite de coco",
+          "50g de coco ralado",
+          "1 colher de sopa de manteiga",
+          "1 xícara de açúcar (para o caramelo)"
+        ],
+        "modo_de_preparo": [
+          "Derreta o açúcar em uma panela até formar um caramelo dourado e despeje em forminhas individuais.",
+          "Em uma tigela, misture as gemas, o açúcar, o leite de coco, o coco ralado e a manteiga até ficar homogêneo.",
+          "Despeje a mistura nas forminhas caramelizadas.",
+          "Asse em banho-maria a 180°C por 40 minutos, ou até firmar.",
+          "Deixe esfriar, desenforme e sirva gelado."
+        ],
+        "rendimento": "10 unidades, serve 5-10 pessoas",
+        "tempo_de_preparo": "1 hora",
+        "imagem": "/imagem/Bahia/quindim.jpeg",
+        "dificuldade": "Médio"
+      }
+    ]
+  }
